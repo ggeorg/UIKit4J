@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CC3431ED1EF6888A00C48A8D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3431EC1EF6888A00C48A8D /* libiconv.tbd */; };
-		CC518BC11EF718700036173F /* Showcase.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BBA1EF718700036173F /* Showcase.java */; };
-		CC518BC21EF718700036173F /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BBC1EF718700036173F /* UIButton.java */; };
-		CC518BC31EF718700036173F /* UIButtonStub.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BBD1EF718700036173F /* UIButtonStub.java */; };
-		CC518BC41EF718700036173F /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BBE1EF718700036173F /* UIView.java */; };
-		CC518BC51EF718700036173F /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC518BC01EF718700036173F /* UIButtonStub.m */; };
+		CC518BD91EF724FF0036173F /* CGPoint.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BCC1EF724FF0036173F /* CGPoint.java */; };
+		CC518BDA1EF724FF0036173F /* CGRect.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BCD1EF724FF0036173F /* CGRect.java */; };
+		CC518BDB1EF724FF0036173F /* CGSize.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BCE1EF724FF0036173F /* CGSize.java */; };
+		CC518BDC1EF724FF0036173F /* Showcase.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BCF1EF724FF0036173F /* Showcase.java */; };
+		CC518BDD1EF724FF0036173F /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD11EF724FF0036173F /* UIButton.java */; };
+		CC518BDE1EF724FF0036173F /* UIButtonStub.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD21EF724FF0036173F /* UIButtonStub.java */; };
+		CC518BDF1EF724FF0036173F /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD31EF724FF0036173F /* UIView.java */; };
+		CC518BE01EF724FF0036173F /* UIViewStub.java in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD41EF724FF0036173F /* UIViewStub.java */; };
+		CC518BE11EF724FF0036173F /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD61EF724FF0036173F /* UIButtonStub.m */; };
+		CC518BE21EF724FF0036173F /* UIViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC518BD81EF724FF0036173F /* UIViewStub.m */; };
 		CCB521F71EF687E5008AC52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F61EF687E5008AC52F /* main.m */; };
 		CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F91EF687E5008AC52F /* AppDelegate.m */; };
 		CCB521FD1EF687E5008AC52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521FC1EF687E5008AC52F /* ViewController.m */; };
@@ -37,12 +42,18 @@
 
 /* Begin PBXFileReference section */
 		CC3431EC1EF6888A00C48A8D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		CC518BBA1EF718700036173F /* Showcase.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Showcase.java; sourceTree = "<group>"; };
-		CC518BBC1EF718700036173F /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
-		CC518BBD1EF718700036173F /* UIButtonStub.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButtonStub.java; sourceTree = "<group>"; };
-		CC518BBE1EF718700036173F /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
-		CC518BBF1EF718700036173F /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
-		CC518BC01EF718700036173F /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
+		CC518BCC1EF724FF0036173F /* CGPoint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGPoint.java; sourceTree = "<group>"; };
+		CC518BCD1EF724FF0036173F /* CGRect.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGRect.java; sourceTree = "<group>"; };
+		CC518BCE1EF724FF0036173F /* CGSize.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGSize.java; sourceTree = "<group>"; };
+		CC518BCF1EF724FF0036173F /* Showcase.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Showcase.java; sourceTree = "<group>"; };
+		CC518BD11EF724FF0036173F /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
+		CC518BD21EF724FF0036173F /* UIButtonStub.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButtonStub.java; sourceTree = "<group>"; };
+		CC518BD31EF724FF0036173F /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
+		CC518BD41EF724FF0036173F /* UIViewStub.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewStub.java; sourceTree = "<group>"; };
+		CC518BD51EF724FF0036173F /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
+		CC518BD61EF724FF0036173F /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
+		CC518BD71EF724FF0036173F /* UIViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStub.h; sourceTree = "<group>"; };
+		CC518BD81EF724FF0036173F /* UIViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewStub.m; sourceTree = "<group>"; };
 		CCB521F21EF687E5008AC52F /* UIKit4J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit4J.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB521F61EF687E5008AC52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCB521F81EF687E5008AC52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,53 +89,75 @@
 		CC3431EF1EF68D6900C48A8D /* java */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BB61EF718700036173F /* src */,
+				CC518BC61EF724FF0036173F /* src */,
 			);
 			name = java;
 			sourceTree = "<group>";
 		};
-		CC518BB61EF718700036173F /* src */ = {
+		CC518BC61EF724FF0036173F /* src */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BB71EF718700036173F /* org */,
-				CC518BBF1EF718700036173F /* UIButtonStub.h */,
-				CC518BC01EF718700036173F /* UIButtonStub.m */,
+				CC518BC71EF724FF0036173F /* org */,
+				CC518BD51EF724FF0036173F /* UIButtonStub.h */,
+				CC518BD61EF724FF0036173F /* UIButtonStub.m */,
+				CC518BD71EF724FF0036173F /* UIViewStub.h */,
+				CC518BD81EF724FF0036173F /* UIViewStub.m */,
 			);
 			name = src;
 			path = ../src;
 			sourceTree = "<group>";
 		};
-		CC518BB71EF718700036173F /* org */ = {
+		CC518BC71EF724FF0036173F /* org */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BB81EF718700036173F /* chamomile */,
+				CC518BC81EF724FF0036173F /* chamomile */,
 			);
 			path = org;
 			sourceTree = "<group>";
 		};
-		CC518BB81EF718700036173F /* chamomile */ = {
+		CC518BC81EF724FF0036173F /* chamomile */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BB91EF718700036173F /* ios */,
+				CC518BC91EF724FF0036173F /* ios */,
 			);
 			path = chamomile;
 			sourceTree = "<group>";
 		};
-		CC518BB91EF718700036173F /* ios */ = {
+		CC518BC91EF724FF0036173F /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BBA1EF718700036173F /* Showcase.java */,
-				CC518BBB1EF718700036173F /* uikit */,
+				CC518BCA1EF724FF0036173F /* core */,
+				CC518BCF1EF724FF0036173F /* Showcase.java */,
+				CC518BD01EF724FF0036173F /* uikit */,
 			);
 			path = ios;
 			sourceTree = "<group>";
 		};
-		CC518BBB1EF718700036173F /* uikit */ = {
+		CC518BCA1EF724FF0036173F /* core */ = {
 			isa = PBXGroup;
 			children = (
-				CC518BBC1EF718700036173F /* UIButton.java */,
-				CC518BBD1EF718700036173F /* UIButtonStub.java */,
-				CC518BBE1EF718700036173F /* UIView.java */,
+				CC518BCB1EF724FF0036173F /* graphics */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CC518BCB1EF724FF0036173F /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CC518BCC1EF724FF0036173F /* CGPoint.java */,
+				CC518BCD1EF724FF0036173F /* CGRect.java */,
+				CC518BCE1EF724FF0036173F /* CGSize.java */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		CC518BD01EF724FF0036173F /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				CC518BD11EF724FF0036173F /* UIButton.java */,
+				CC518BD21EF724FF0036173F /* UIButtonStub.java */,
+				CC518BD31EF724FF0036173F /* UIView.java */,
+				CC518BD41EF724FF0036173F /* UIViewStub.java */,
 			);
 			path = uikit;
 			sourceTree = "<group>";
@@ -244,14 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC518BE01EF724FF0036173F /* UIViewStub.java in Sources */,
+				CC518BDA1EF724FF0036173F /* CGRect.java in Sources */,
+				CC518BD91EF724FF0036173F /* CGPoint.java in Sources */,
+				CC518BDE1EF724FF0036173F /* UIButtonStub.java in Sources */,
 				CCB521FD1EF687E5008AC52F /* ViewController.m in Sources */,
-				CC518BC51EF718700036173F /* UIButtonStub.m in Sources */,
 				CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */,
-				CC518BC11EF718700036173F /* Showcase.java in Sources */,
-				CC518BC41EF718700036173F /* UIView.java in Sources */,
+				CC518BDB1EF724FF0036173F /* CGSize.java in Sources */,
+				CC518BDF1EF724FF0036173F /* UIView.java in Sources */,
+				CC518BDC1EF724FF0036173F /* Showcase.java in Sources */,
+				CC518BE11EF724FF0036173F /* UIButtonStub.m in Sources */,
 				CCB521F71EF687E5008AC52F /* main.m in Sources */,
-				CC518BC21EF718700036173F /* UIButton.java in Sources */,
-				CC518BC31EF718700036173F /* UIButtonStub.java in Sources */,
+				CC518BDD1EF724FF0036173F /* UIButton.java in Sources */,
+				CC518BE21EF724FF0036173F /* UIViewStub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEVELOPMENT_TEAM = ME833V5D8D;
 				FRAMEWORK_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks";
 				HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/include";
@@ -390,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEVELOPMENT_TEAM = ME833V5D8D;
 				FRAMEWORK_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks";
 				HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/include";
