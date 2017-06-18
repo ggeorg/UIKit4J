@@ -13,5 +13,8 @@ public final class Showcase {
 	
 	public static void addSubview(UIView view, UIButton button) {
 		view.addSubview(button);
+		
+		System.out.println("frame:"+view.getValue("frame"));
+		view.setValue(view.getValue("frame"), "frame");
 	}
 }

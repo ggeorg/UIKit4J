@@ -1,5 +1,6 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.core.NSObject;
 import org.chamomile.ios.core.graphics.CGPoint;
 import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.core.graphics.CGSize;
@@ -10,7 +11,7 @@ import com.google.j2objc.annotations.ObjectiveCName;
 #import <UIKit/UIKit.h>
  ]-*/
 
-public interface UIView {
+public interface UIView extends NSObject {
 	final class UIViewFactory {
 		static native UIView viewWithRect(float x, float y, float width, float height) /*-[
 		//@formatter:off
@@ -44,14 +45,14 @@ public interface UIView {
 		return UIViewFactory.viewWithRect(o.x, o.y, sz.width, sz.height);
 	};
 
-	default CGRect getFrame() {
-		return UIViewFactory.getFrame(this);
+	static CGRect getFrame(UIView view) {
+		return UIViewFactory.getFrame(view);
 	}
 
-	default void setFrame(CGRect frame) {
+	static void setFrame(UIView view, CGRect frame) {
 		final CGPoint o = frame.origin;
 		final CGSize sz = frame.size;
-		UIViewFactory.setFrame(this, o.x, o.y, sz.width, sz.height);
+		UIViewFactory.setFrame(view, o.x, o.y, sz.width, sz.height);
 	}
 
 	@ObjectiveCName("addSubview:")
