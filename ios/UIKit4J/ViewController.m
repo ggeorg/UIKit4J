@@ -25,8 +25,12 @@
     
     //[UIButton buttonWithType:UIButtonTypeRoundedRect];
     
-    self.view.frame = CGRectMake(0, 0, 256, 256);
+    id<OrgChamomileIosUikitUIView> view = (id<OrgChamomileIosUikitUIView>)self.view;
+    NSLog(@"====>%@", [OrgChamomileIosUikitUIView getFrameWithOrgChamomileIosUikitUIView:view]);
     
+    NSLog(@"=====%@", [self.view valueForKey:@"backgroundColor"]);
+    NSLog(@"=====%@", [self.view valueForKey:@"frame"]);
+          
     UIButton *btn = (UIButton *)[OrgChamomileIosShowcase createButtonWithInt:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(52, 252, 215, 40)];
     
