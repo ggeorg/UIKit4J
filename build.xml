@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="uikit4j" default="build" basedir=".">
+
+	<!-- ant properties -->
+	<!-- <property environment="env" /> -->
+	<property file="build.properties" />
+
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="build.dir" value="${basedir}/build" />
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="classes.build.dir" value="${build.dir}/classes" />
+	<property name="objc.build.dir" value="${build.dir}/objc" />
+
+	<target name="init">
+		<tstamp />
+	</target>
+
+	<target name="static-framework">
+		<echo>building ${framework.dir} framework</echo>
+	</target>
+	
+	<path id="class.path">
+		<pathelement location="${j2objc.home}/lib/jre_emul.jar"/>
+		<pathelement location="${j2objc.home}/lib/j2objc.jar"/>
+	</path>
+
+	<target name="javac" depends="init">
+		<mkdir dir="${classes.build.dir}" />
+		<javac includeAntRuntime="false" includeJavaRuntime="false" 
+			destdir="${classes.build.dir}" srcdir="${src.dir}" encoding="utf-8" 
+			nowarn="${javac.nowarn}" source="${javac.source}" target="${javac.target}" 
+			debug="${javac.debug}" debuglevel="vars,lines,source">
+			<classpath refid="class.path" />
+			<include name="**/*.java" />
+		</javac>
+	</target>
+	
+	<target name="jar" depends="javac">
+		<mkdir dir="${dist.dir}" />
+		<jar destfile="${dist.dir}/${ant.project.name}-${version}.jar"
+			basedir="${classes.build.dir}">
+			<exclude name="**/Showcase.class" />
+		</jar>
+	</target>
+
+	<target name="j2objc" depends="init">
+		<echo>${j2objc.home}/j2objc</echo>
+		<mkdir dir="${objc.build.dir}" />
+		<apply executable="${j2objc.home}/j2objc" parallel="true">
+			<arg value="-d" />
+			<arg value="${objc.build.dir}" />
+			<arg value="-sourcepath" />
+			<arg value="${basedir}/src" />
+			<arg value="-g" />
+			<srcfile />
+			<fileset dir="${basedir}/src">
+				<include name="**/*.java" />
+				<exclude name="**/*Stub.java" />
+				<!--exclude name="**/Showcase.java" /-->
+			</fileset>
+		</apply>
+		<copy todir="${objc.build.dir}">
+			<fileset dir="${basedir}/src">
+				<include name="**/*.h" />
+				<include name="**/*.m" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="build" depends="javac, j2objc"/>
+	
+	<target name="dist" depends="jar, static-framework"/>
+
+	<target name="clean">
+		<delete dir="${build.dir}" failonerror="false" />
+	</target>
+	
+	<target name="distclean" depends="clean">
+		<delete dir="${dist.dir}" failonerror="false" />
+	</target>
+
+</project>
