@@ -11,7 +11,13 @@ import com.google.j2objc.annotations.ObjectiveCName;
 #import <UIKit/UIKit.h>
  ]-*/
 
-public interface UIView extends NSObject {
+/**
+ * An object that represents a rectangular area on the screen and manages the
+ * content in that area.
+ * 
+ * @author ggeorg
+ */
+public interface UIView extends UIResponder {
 	final class UIViewFactory {
 		static native UIView viewWithRect(float x, float y, float width, float height) /*-[
 		//@formatter:off
@@ -39,11 +45,29 @@ public interface UIView extends NSObject {
 		]-*/;
 	}
 
+	// ---------------------------------------------------------------------
+	// Initializing a View Object
+	// ---------------------------------------------------------------------
+
 	static UIView viewWithRect(CGRect frame) {
 		final CGPoint o = frame.origin;
 		final CGSize sz = frame.size;
 		return UIViewFactory.viewWithRect(o.x, o.y, sz.width, sz.height);
 	};
+
+	// ---------------------------------------------------------------------
+	// Configuring a View’s Visual Appearance
+	// ---------------------------------------------------------------------
+
+	@ObjectiveCName("backgroundColor")
+	default NSObject getBackgroundColor() {
+		return null;
+	}
+
+	@ObjectiveCName("setBackgroundColor:")
+	default void setBackgroundColor(NSObject backgroundColor) {}
+
+	// ---------------------------------------------------------------------
 
 	static CGRect getFrame(UIView view) {
 		return UIViewFactory.getFrame(view);
@@ -53,6 +77,11 @@ public interface UIView extends NSObject {
 		final CGPoint o = frame.origin;
 		final CGSize sz = frame.size;
 		UIViewFactory.setFrame(view, o.x, o.y, sz.width, sz.height);
+	}
+
+	@ObjectiveCName("frame")
+	default long getFrame() {
+		return 0L;
 	}
 
 	@ObjectiveCName("addSubview:")
