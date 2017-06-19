@@ -1,6 +1,6 @@
 package org.chamomile.ios.uikit;
 
-import org.chamomile.ios.core.NSObject;
+import org.chamomile.ios.foundation.NSObject;
 
 public interface UIResponder extends NSObject {
 

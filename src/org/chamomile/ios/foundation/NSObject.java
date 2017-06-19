@@ -1,4 +1,4 @@
-package org.chamomile.ios.core;
+package org.chamomile.ios.foundation;
 
 import com.google.j2objc.annotations.ObjectiveCName;
 
