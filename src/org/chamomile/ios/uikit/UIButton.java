@@ -9,7 +9,9 @@ import com.google.j2objc.annotations.ObjectiveCName;
 public interface UIButton extends UIView {
 	class UIButtonFactory {
 		static native UIButton buttonWithType(int buttonType) /*-[
+		//#formatter:off
 			return (id<OrgChamomileIosUikitUIButton>) [UIButton buttonWithType:buttonType];
+		//#formatter:on
 		]-*/;
 	}
 	
@@ -18,5 +20,5 @@ public interface UIButton extends UIView {
 	};
 
 	@ObjectiveCName("setTitle:forState:")
-	default void setTitle(String title, int state) {}
+	void setTitle(String title, int state);
 }

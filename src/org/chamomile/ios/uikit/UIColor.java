@@ -13,7 +13,7 @@ import org.chamomile.ios.core.NSObject;
  */
 public interface UIColor extends NSObject {
 	final class UIViewFactory {
-		static native UIColor withRGBA(float red, float green, float blue, float alpha) /*-[
+		static native UIColor withRGBA(double red, double green, double blue, double alpha) /*-[
 		//@formatter:off
 			return [[UIColor alloc] initWithRed:red green:green blue:blue alpha:alpha];
 		//@formatter:on
@@ -104,11 +104,11 @@ public interface UIColor extends NSObject {
 		]-*/;
 	}
 
-	static UIColor withRGB(float red, float green, float blue) {
+	static UIColor withRGB(double red, double green, double blue) {
 		return UIViewFactory.withRGBA(red, green, blue, 1F);
 	}
 
-	static UIColor withRGBA(float red, float green, float blue, float alpha) {
+	static UIColor withRGBA(double red, double green, double blue, double alpha) {
 		return UIViewFactory.withRGBA(red, green, blue, alpha);
 	}
 

@@ -1,6 +1,5 @@
 package org.chamomile.ios.uikit;
 
-import org.chamomile.ios.core.NSObject;
 import org.chamomile.ios.core.graphics.CGPoint;
 import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.core.graphics.CGSize;
@@ -60,12 +59,22 @@ public interface UIView extends UIResponder {
 	// ---------------------------------------------------------------------
 
 	@ObjectiveCName("backgroundColor")
-	default NSObject getBackgroundColor() {
-		return null;
-	}
+	UIColor getBackgroundColor();
 
 	@ObjectiveCName("setBackgroundColor:")
-	default void setBackgroundColor(NSObject backgroundColor) {}
+	void setBackgroundColor(UIColor backgroundColor);
+	
+	@ObjectiveCName("isHidden")
+	boolean isHidden();
+
+	@ObjectiveCName("setHidden:")
+	void setHidden(boolean hidden);
+	
+	@ObjectiveCName("alpha")
+	double getAlpha();
+
+	@ObjectiveCName("setAlpha:")
+	void setAlpha(double alpha);
 
 	// ---------------------------------------------------------------------
 

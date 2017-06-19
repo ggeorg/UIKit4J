@@ -5,7 +5,9 @@
 
 #include "J2ObjC_common.h"
 
-@interface UIButton (JavaUIButton)
+#include "UIButton.h"
+
+@interface UIButton (JavaUIButton) <OrgChamomileIosUikitUIButton>
 
 @end
 

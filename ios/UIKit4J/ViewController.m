@@ -11,7 +11,7 @@
 #import "Showcase.h"
 
 #import "UIButton.h"
-#import "UIView.h"
+#import "UIViewStub.h"
 
 @interface ViewController ()
 
@@ -28,14 +28,14 @@
     id<OrgChamomileIosUikitUIView> view = (id<OrgChamomileIosUikitUIView>)self.view;
     NSLog(@"====>%@", [OrgChamomileIosUikitUIView getFrameWithOrgChamomileIosUikitUIView:view]);
     
-    NSLog(@"=====%@", [self.view valueForKey:@"backgroundColor"]);
-    NSLog(@"=====%@", [self.view valueForKey:@"frame"]);
+    NSLog(@"=====%f", [self.view alpha]);
+    [self.view setAlpha:.5];
           
     UIButton *btn = (UIButton *)[OrgChamomileIosShowcase createButtonWithInt:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(52, 252, 215, 40)];
     
     [OrgChamomileIosShowcase addSubviewWithOrgChamomileIosUikitUIView:(id<OrgChamomileIosUikitUIView>)self.view
-                                     withOrgChamomileIosUikitUIButton:(id<OrgChamomileIosUikitUIButton>)btn];
+                 withOrgChamomileIosUikitUIButton:(id<OrgChamomileIosUikitUIButton>)btn];
 }
 
 

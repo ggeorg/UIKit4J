@@ -11,13 +11,21 @@ public final class Showcase {
 		btn.setTitle("Click me!!!", 0);
 		return btn;
 	}
-	
+
 	public static void addSubview(UIView view, UIButton button) {
 		view.addSubview(button);
+
+		view.setBackgroundColor(UIColor.withRGB(1, .5, .5));
+		System.out.println(view.getBackgroundColor());
+
+		System.out.println("hidden:" + view.isHidden());
+		view.setHidden(false);
 		
-		view.setBackgroundColor(UIColor.withRGB(1F, 1F, .5F));
-		
-		System.out.println("frame:"+view.getValue("frame"));
+		System.out.println("alpha:" + view.getValue("alpha"));
+		System.out.println("alpha:" + view.getAlpha());
+		view.setAlpha(1);
+
+		System.out.println("frame:" + view.getValue("frame"));
 		view.setValue(view.getValue("frame"), "frame");
 	}
 }

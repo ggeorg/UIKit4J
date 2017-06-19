@@ -39,7 +39,7 @@
 				"${DERIVED_FILE_DIR}/${INPUT_FILE_BASE}.h",
 				"${DERIVED_FILE_DIR}/${INPUT_FILE_BASE}.m",
 			);
-			script = "if [ ! -f \"${J2OBJC_HOME}/j2objc\" ]; then echo \"J2OBJC_HOME is not correctly defined, currently set to '${J2OBJC_HOME}'\"; exit 1; fi;\n\nif [[ ${INPUT_FILE_PATH} != *Stub.java ]]; then\n    \"${J2OBJC_HOME}/j2objc\" -d ${DERIVED_FILES_DIR} -sourcepath ../src --no-package-directories -g ${INPUT_FILE_PATH};\nelse\n    touch \"${INPUT_FILE_PATH%.java}.m\";\n    mv \"${INPUT_FILE_PATH%.java}.m\" ${DERIVED_FILES_DIR};\nfi";
+			script = "if [ ! -f \"${J2OBJC_HOME}/j2objc\" ]; then echo \"J2OBJC_HOME is not correctly defined, currently set to '${J2OBJC_HOME}'\"; exit 1; fi;\n\necho ${DERIVED_FILES_DIR}\n\nif [[ ${INPUT_FILE_PATH} != *Stub.java ]]; then\n    \"${J2OBJC_HOME}/j2objc\" -d ${DERIVED_FILES_DIR} -sourcepath ../src --no-package-directories -g ${INPUT_FILE_PATH};\nelse\n    touch \"${INPUT_FILE_PATH%.java}.m\";\n    mv \"${INPUT_FILE_PATH%.java}.m\" ${DERIVED_FILES_DIR};\nfi";
 		};
 /* End PBXBuildRule section */
 
