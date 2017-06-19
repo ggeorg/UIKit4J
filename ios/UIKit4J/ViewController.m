@@ -32,7 +32,7 @@
     [self.view setAlpha:.5];
           
     UIButton *btn = (UIButton *)[OrgChamomileIosShowcase createButtonWithInt:UIButtonTypeRoundedRect];
-    [btn setFrame:CGRectMake(52, 252, 215, 40)];
+    [btn setFrame:CGRectMake(52, 252, 70, 40)];
     
     [OrgChamomileIosShowcase addSubviewWithOrgChamomileIosUikitUIView:(id<OrgChamomileIosUikitUIView>)self.view
                  withOrgChamomileIosUikitUIButton:(id<OrgChamomileIosUikitUIButton>)btn];

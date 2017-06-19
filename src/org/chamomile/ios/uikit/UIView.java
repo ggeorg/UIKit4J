@@ -63,18 +63,98 @@ public interface UIView extends UIResponder {
 
 	@ObjectiveCName("setBackgroundColor:")
 	void setBackgroundColor(UIColor backgroundColor);
-	
+
 	@ObjectiveCName("isHidden")
 	boolean isHidden();
 
 	@ObjectiveCName("setHidden:")
 	void setHidden(boolean hidden);
-	
+
 	@ObjectiveCName("alpha")
 	double getAlpha();
 
 	@ObjectiveCName("setAlpha:")
 	void setAlpha(double alpha);
+
+	@ObjectiveCName("isOpaque")
+	boolean isOpaque();
+
+	@ObjectiveCName("setOpaque:")
+	void setOpaque(boolean opaque);
+
+	@ObjectiveCName("tintColor")
+	UIColor getTintColor();
+
+	@ObjectiveCName("setTintColor:")
+	void setTintColor(UIColor tintColor);
+
+	// TODO tintAdjustmentMode
+
+	@ObjectiveCName("clipsToBounds")
+	boolean isClipsToBounds();
+
+	@ObjectiveCName("setClipsToBounds:")
+	void setClipsToBounds(boolean clipsToBounds);
+
+	@ObjectiveCName("clearsContextBeforeDrawing")
+	boolean isClearsContextBeforeDrawing();
+
+	@ObjectiveCName("setClearsContextBeforeDrawing:")
+	void setClearsContextBeforeDrawing(boolean clearsContextBeforeDrawing);
+
+	@ObjectiveCName("maskView")
+	UIView getMaskView();
+
+	@ObjectiveCName("setMaskView:")
+	void setMaskView(UIView maskView);
+
+	// TODO layerClass
+
+	// TODO layer
+
+	// ---------------------------------------------------------------------
+	// Configuring the Event-Related Behavior
+	// ---------------------------------------------------------------------
+
+	// ---------------------------------------------------------------------
+	// Managing the View Hierarchy
+	// ---------------------------------------------------------------------
+	
+	@ObjectiveCName("superview")
+	UIView getSuperview();
+	
+	@ObjectiveCName("subviews")
+	Object getSubviews(); // TODO result
+	
+	@ObjectiveCName("window")
+	Object getWindow(); // TODO result
+
+	@ObjectiveCName("addSubview:")
+	void addSubview(UIView view);
+	
+	@ObjectiveCName("bringSubviewToFront:")
+	void bringSubviewToFront(UIView view);
+	
+	@ObjectiveCName("sendSubviewToBack:")
+	void sendSubviewToBack(UIView view);
+	
+	@ObjectiveCName("removeFromSuperview")
+	void removeFromSuperview();
+	
+	@ObjectiveCName("insertSubview:atIndex:")
+	void insertSubview(UIView view, int index);
+	
+	@ObjectiveCName("insertSubview:aboveSubview:")
+	void insertAboveSubview(UIView view, UIView siblingSubview);
+	
+	@ObjectiveCName("insertSubview:belowSubview:")
+	void insertBelowSubview(UIView view, UIView siblingSubview);
+	
+	@ObjectiveCName("exchangeSubviewAtIndex:withSubviewAtIndex:")
+	void exchangeSubviews(int index1, int index2);
+	
+	@ObjectiveCName("isDescendantOfView:")
+	void isDescendantOfView(UIView view);
 
 	// ---------------------------------------------------------------------
 
@@ -92,7 +172,4 @@ public interface UIView extends UIResponder {
 	default long getFrame() {
 		return 0L;
 	}
-
-	@ObjectiveCName("addSubview:")
-	default void addSubview(UIView subview) {}
 }
