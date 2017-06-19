@@ -8,10 +8,10 @@
 
 #import "ViewController.h"
 
-#import "Showcase.h"
+#import "org/chamomile/ios/Showcase.h"
 
-#import "UIButton.h"
-#import "UIViewStub.h"
+#import "org/chamomile/ios/uikit/UIButton.h"
+#import "org/chamomile/ios/uikit/UIViewStub.h"
 
 @interface ViewController ()
 
