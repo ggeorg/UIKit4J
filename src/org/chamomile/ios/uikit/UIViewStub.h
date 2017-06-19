@@ -5,7 +5,7 @@
 
 #include "J2ObjC_common.h"
 
-#include "UIView.h"
+#include "org/chamomile/ios/uikit/UIView.h"
 
 @interface UIView (JavaUIView) <OrgChamomileIosUikitUIView>
 

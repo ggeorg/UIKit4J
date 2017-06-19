@@ -5,7 +5,7 @@
 
 #include "J2ObjC_common.h"
 
-#include "UIButton.h"
+#include "org/chamomile/ios/uikit/UIButton.h"
 
 @interface UIButton (JavaUIButton) <OrgChamomileIosUikitUIButton>
 
