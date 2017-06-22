@@ -22,14 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    NSLog(@"=====%f", [self.view alpha]);
-    
-    UIButton *btn = (UIButton *)[OrgChamomileIosShowcase createButtonWithInt:UIButtonTypeRoundedRect];
-    [btn setFrame:CGRectMake(52, 252, 70, 40)];
-    
-    [OrgChamomileIosShowcase addSubviewWithOrgChamomileIosUikitUIView:(id<OrgChamomileIosUikitUIView>)self.view
-                 withOrgChamomileIosUikitUIButton:(id<OrgChamomileIosUikitUIButton>)btn];
 }
 
 
