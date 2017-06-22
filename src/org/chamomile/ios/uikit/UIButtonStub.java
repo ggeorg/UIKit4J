@@ -3,7 +3,7 @@ package org.chamomile.ios.uikit;
 import com.google.j2objc.annotations.ObjectiveCName;
 
 @ObjectiveCName("UIButton")
-public final class UIButtonStub extends UIViewStub implements UIButton {
+public final class UIButtonStub extends UIControlStub implements UIButton {
 
 	@Override
 	public Object getTitleLabel() {

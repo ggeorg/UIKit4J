@@ -6,7 +6,7 @@ import com.google.j2objc.annotations.ObjectiveCName;
 #import <UIKit/UIKit.h>
  ]-*/
 
-public interface UIButton extends UIView {
+public interface UIButton extends UIControl {
 	class UIButtonFactory {
 		static native UIButton buttonWithType(int buttonType) /*-[
 		//@formatter:off
