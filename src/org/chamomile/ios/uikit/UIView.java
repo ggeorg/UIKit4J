@@ -172,6 +172,24 @@ public interface UIView extends UIResponder {
 	// Configuring the Event-Related Behavior
 	// ---------------------------------------------------------------------
 
+	@ObjectiveCName("isUserInteractionEnabled")
+	boolean isUserInteractionEnabled();
+
+	@ObjectiveCName("setUserInteractionEnabled:")
+	void setUserInteractionEnabled(boolean userInteractionEnabled);
+
+	@ObjectiveCName("isMultipleTouchEnabled")
+	boolean isMultipleTouchEnabled();
+
+	@ObjectiveCName("setMultipleTouchEnabled:")
+	void setMultipleTouchEnabled(boolean multipleTouchEnabled);
+
+	@ObjectiveCName("isExclusiveTouch")
+	boolean isExclusiveTouch();
+
+	@ObjectiveCName("setExclusiveTouch:")
+	void setExclusiveTouch(boolean exclusiveTouch);
+
 	// ---------------------------------------------------------------------
 	// Configuring the Bounds and Frame Rectangles
 	// ---------------------------------------------------------------------

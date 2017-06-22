@@ -68,6 +68,18 @@ public class UIViewStub implements UIView {
 	}
 
 	@Override
+	public int getTintAdjustmentMode() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setTintAdjustmentMode(int tintAdjustmentMode) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public boolean isClipsToBounds() {
 		// TODO Auto-generated method stub
 		return false;
@@ -99,6 +111,42 @@ public class UIViewStub implements UIView {
 
 	@Override
 	public void setMaskView(UIView maskView) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isUserInteractionEnabled() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setUserInteractionEnabled(boolean userInteractionEnabled) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isMultipleTouchEnabled() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setMultipleTouchEnabled(boolean multipleTouchEnabled) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isExclusiveTouch() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setExclusiveTouch(boolean exclusiveTouch) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -175,16 +223,4 @@ public class UIViewStub implements UIView {
 		
 	}
 
-	@Override
-	public int getTintAdjustmentMode() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setTintAdjustmentMode(int tintAdjustmentMode) {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }
