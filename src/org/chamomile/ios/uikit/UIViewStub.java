@@ -301,4 +301,76 @@ public class UIViewStub implements UIView {
 		
 	}
 
+	@Override
+	public NSLayoutYAxisAnchor getBottomAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutXAxisAnchor getCenterXAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutYAxisAnchor getCenterYAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutYAxisAnchor getFirstBaselineAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutDimension getHeightAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutYAxisAnchor getLastBaselineAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutXAxisAnchor getLeadingAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutXAxisAnchor getLeftAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutXAxisAnchor getRightAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutYAxisAnchor getTopAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutXAxisAnchor getTrailingAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public NSLayoutDimension getWidthAnchor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

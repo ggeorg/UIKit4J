@@ -24,7 +24,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"=====%f", [self.view alpha]);
-    self.view getRe
     
     UIButton *btn = (UIButton *)[OrgChamomileIosShowcase createButtonWithInt:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(52, 252, 70, 40)];

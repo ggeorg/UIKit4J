@@ -325,4 +325,44 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 
 	@ObjectiveCName("setTranslatesAutoresizingMaskIntoConstraints:")
 	void setTranslatesAutoresizingMaskIntoConstraints(boolean translatesAutoresizingMaskIntoConstraints);
+
+	// ---------------------------------------------------------------------
+	// Creating Constraints Using Layout Anchors
+	// ---------------------------------------------------------------------
+	
+	@ObjectiveCName("bottomAnchor")
+	NSLayoutYAxisAnchor getBottomAnchor();
+	
+	@ObjectiveCName("centerXAnchor")
+	NSLayoutXAxisAnchor getCenterXAnchor();
+	
+	@ObjectiveCName("centerYAnchor")
+	NSLayoutYAxisAnchor getCenterYAnchor();
+	
+	@ObjectiveCName("firstBaselineAnchor")
+	NSLayoutYAxisAnchor getFirstBaselineAnchor();
+	
+	@ObjectiveCName("heightAnchor")
+	NSLayoutDimension getHeightAnchor();
+	
+	@ObjectiveCName("lastBaselineAnchor")
+	NSLayoutYAxisAnchor getLastBaselineAnchor();
+	
+	@ObjectiveCName("leadingAnchor")
+	NSLayoutXAxisAnchor getLeadingAnchor();
+	
+	@ObjectiveCName("leftAnchor")
+	NSLayoutXAxisAnchor getLeftAnchor();
+	
+	@ObjectiveCName("rightAnchor")
+	NSLayoutXAxisAnchor getRightAnchor();
+	
+	@ObjectiveCName("topAnchor")
+	NSLayoutYAxisAnchor getTopAnchor();
+	
+	@ObjectiveCName("trailingAnchor")
+	NSLayoutXAxisAnchor getTrailingAnchor();
+	
+	@ObjectiveCName("widthAnchor")
+	NSLayoutDimension getWidthAnchor();
 }
