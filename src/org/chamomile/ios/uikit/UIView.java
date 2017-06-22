@@ -18,7 +18,7 @@ import com.google.j2objc.annotations.ObjectiveCName;
  * 
  * @author ggeorg
  */
-public interface UIView extends UIResponder {
+public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMode {
 	final class UIViewFactory {
 		static native UIView viewWithRect(double x, double y, double width, double height) /*-[
 		//@formatter:off
@@ -277,4 +277,30 @@ public interface UIView extends UIResponder {
 	@ObjectiveCName("isDescendantOfView:")
 	void isDescendantOfView(UIView view);
 
+	// ---------------------------------------------------------------------
+	// Configuring the Resizing Behavior
+	// ---------------------------------------------------------------------
+
+	@ObjectiveCName("autoresizingMask")
+	/* UIViewAutoresizing */int getAutoresizingMask();
+	
+	@ObjectiveCName("setAutoresizingMask:")
+	void setAutoresizingMask(/* UIViewAutoresizing */int autoresizingMask);
+
+	@ObjectiveCName("autoresizesSubviews")
+	boolean autoresizesSubviews();
+
+	@ObjectiveCName("setAutoresizesSubviews:")
+	void setAutoresizesSubviews(boolean autoresizesSubviews);
+
+	@ObjectiveCName("contentMode")
+	/* UIViewContentMode */int getContentMode();
+	
+	@ObjectiveCName("setContentMode:")
+	void setContentMode(/* UIViewContentMode */int contentMode);
+	
+	// TODO sizeThatFits:
+	
+	@ObjectiveCName("sizeToFit")
+	void sizeToFit();
 }
