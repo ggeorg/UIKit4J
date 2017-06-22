@@ -1,5 +1,8 @@
 package org.chamomile.ios.uikit;
 
+import com.google.j2objc.annotations.ObjectiveCName;
+
+@ObjectiveCName("UIControl")
 public class UIControlStub extends UIViewStub implements UIControl {
 
 	@Override

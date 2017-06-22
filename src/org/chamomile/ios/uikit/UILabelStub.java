@@ -2,6 +2,9 @@ package org.chamomile.ios.uikit;
 
 import org.chamomile.ios.foundation.NSAttributedString;
 
+import com.google.j2objc.annotations.ObjectiveCName;
+
+@ObjectiveCName("UILabel")
 public class UILabelStub extends UIViewStub implements UILabel {
 
 	@Override
