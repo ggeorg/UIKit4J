@@ -373,4 +373,34 @@ public class UIViewStub implements UIView {
 		return null;
 	}
 
+	@Override
+	public NSArray<NSLayoutConstraint> getConstraints() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addConstraint(NSLayoutConstraint constraint) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addConstraints(NSArray<NSLayoutConstraint> constraints) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeConstraint(NSLayoutConstraint constraint) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeConstraints(NSArray<NSLayoutConstraint> constraints) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

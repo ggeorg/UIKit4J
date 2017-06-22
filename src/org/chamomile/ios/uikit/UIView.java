@@ -365,4 +365,23 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 	
 	@ObjectiveCName("widthAnchor")
 	NSLayoutDimension getWidthAnchor();
+
+	// ---------------------------------------------------------------------
+	// Managing the View’s Constraints
+	// ---------------------------------------------------------------------
+	
+	@ObjectiveCName("constraints")
+	NSArray<NSLayoutConstraint> getConstraints();
+	
+	@ObjectiveCName("addConstraint:")
+	void addConstraint(NSLayoutConstraint constraint);
+	
+	@ObjectiveCName("addConstraints:")
+	void addConstraints(NSArray<NSLayoutConstraint> constraints);
+	
+	@ObjectiveCName("removeConstraint:")
+	void removeConstraint(NSLayoutConstraint constraint);
+	
+	@ObjectiveCName("removeConstraints:")
+	void removeConstraints(NSArray<NSLayoutConstraint> constraints);
 }
