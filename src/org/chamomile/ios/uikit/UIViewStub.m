@@ -17,13 +17,7 @@
     return &_UIView;
 }
 
-- (OrgChamomileIosCoreGraphicsCGRect *) java_getFrame {
-    return OrgChamomileIosUikitUIView_java_getFrame(self);
-}
-
-- (void)java_setFrame:(OrgChamomileIosCoreGraphicsCGRect *)arg0 {
-	OrgChamomileIosUikitUIView_java_setFrame_(self, arg0);
-}
+#include "UIViewStubImpl.h"
 
 @end
 

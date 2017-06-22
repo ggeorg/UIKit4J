@@ -27,19 +27,35 @@ public interface UIView extends UIResponder {
 
 		static native CGRect getFrame(UIView view) /*-[
 		//@formatter:off
-			UIView *_view = (UIView *)view;
-			float x = _view.frame.origin.x;
-			float y = _view.frame.origin.y;
-			float width  = _view.frame.size.width;
-			float height = _view.frame.size.height;
+			CGRect frame = [(UIView *)view frame];
+			float x = frame.origin.x;
+			float y = frame.origin.y;
+			float width  = frame.size.width;
+			float height = frame.size.height;
 			return [[OrgChamomileIosCoreGraphicsCGRect alloc] x:x y:y width:width height:height];
 		//@formatter:on
 		]-*/;
 
 		static native void setFrame(UIView view, float x, float y, float width, float height) /*-[
 		//@formatter:off
-			UIView *_view = (UIView *)view;
-			_view.frame = CGRectMake(x, y, width, height);
+			[(UIView *)view setFrame:CGRectMake(x, y, width, height)];
+		//@formatter:on
+		]-*/;
+
+		static native CGRect getBounds(UIView view) /*-[
+		//@formatter:off
+			CGRect bounds = [(UIView *)view bounds];
+			float x = bounds.origin.x;
+			float y = bounds.origin.y;
+			float width  = bounds.size.width;
+			float height = bounds.size.height;
+			return [[OrgChamomileIosCoreGraphicsCGRect alloc] x:x y:y width:width height:height];
+		//@formatter:on
+		]-*/;
+
+		static native void setBounds(UIView view, float x, float y, float width, float height) /*-[
+		//@formatter:off
+			[(UIView *)view setBounds:CGRectMake(x, y, width, height)];
 		//@formatter:on
 		]-*/;
 	}
@@ -128,6 +144,16 @@ public interface UIView extends UIResponder {
 	@ObjectiveCName("java_setFrame:")
 	default void setFrame(CGRect frame) {
 		UIViewFactory.setFrame(this, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+	}
+
+	@ObjectiveCName("java_getBounds")
+	default CGRect getBounds() {
+		return UIViewFactory.getBounds(this);
+	}
+
+	@ObjectiveCName("java_setBounds:")
+	default void setBounds(CGRect frame) {
+		UIViewFactory.setBounds(this, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
 	}
 
 	// ---------------------------------------------------------------------
