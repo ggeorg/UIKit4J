@@ -1,5 +1,10 @@
 package org.chamomile.ios.uikit;
 
+/**
+ * Constants describing the types of events possible for controls.
+ * 
+ * @author ggeorg
+ */
 public interface UIControlEvents {
 	//@formatter:off
 	int UIControlEventTouchDown                                         = 1 <<  0;      // on all touch downs

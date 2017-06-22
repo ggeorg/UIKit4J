@@ -1,10 +1,13 @@
 package org.chamomile.ios;
 
 import static org.chamomile.ios.core.graphics.CGAffineTransform.makeRotation;
+import static org.chamomile.ios.uikit.UIControlEvents.UIControlEventTouchUpInside;
+import static org.chamomile.ios.uikit.UIControlState.UIControlStateNormal;
 
 import org.chamomile.ios.uikit.UIButton;
 import org.chamomile.ios.uikit.UIColor;
 import org.chamomile.ios.uikit.UIControlEvents;
+import org.chamomile.ios.uikit.UIControlState;
 import org.chamomile.ios.uikit.UIEvent;
 import org.chamomile.ios.uikit.UIEventHandler;
 import org.chamomile.ios.uikit.UIView;
@@ -49,9 +52,9 @@ public final class Showcase {
 			public void onEvent(UIButton sender, UIEvent event) {
 				System.out.println("==================================="+event.getTimestamp());
 				
-				sender.setTitle("Clicked", 0);
+				sender.removeTarget(this, UIControlEventTouchUpInside);
 			}
-		}, UIControlEvents.UIControlEventTouchUpInside);
+		}, UIControlEventTouchUpInside);
 
 		System.out.println("Frame:  " + button.getFrame());
 		System.out.println("Bounds: " + button.getBounds());
@@ -61,5 +64,7 @@ public final class Showcase {
 		button.setTransform(makeRotation(-0.25));
 		// button.setTransform(CGAffineTransform.makeScale(2, 3));
 		// System.out.println("Transform: " + button.getTransform());
+		
+		System.out.println(">>>>>>>>>>>>"+button.getState());
 	}
 }
