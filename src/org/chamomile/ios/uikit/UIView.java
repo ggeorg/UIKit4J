@@ -142,7 +142,7 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 
 	@ObjectiveCName("tintAdjustmentMode")
 	/* UIViewTintAdjustmentMode */int getTintAdjustmentMode();
-	
+
 	@ObjectiveCName("setTintAdjustmentMode:")
 	void setTintAdjustmentMode(/* UIViewTintAdjustmentMode */int tintAdjustmentMode);
 
@@ -283,7 +283,7 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 
 	@ObjectiveCName("autoresizingMask")
 	/* UIViewAutoresizing */int getAutoresizingMask();
-	
+
 	@ObjectiveCName("setAutoresizingMask:")
 	void setAutoresizingMask(/* UIViewAutoresizing */int autoresizingMask);
 
@@ -295,12 +295,34 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 
 	@ObjectiveCName("contentMode")
 	/* UIViewContentMode */int getContentMode();
-	
+
 	@ObjectiveCName("setContentMode:")
 	void setContentMode(/* UIViewContentMode */int contentMode);
-	
+
 	// TODO sizeThatFits:
-	
+
 	@ObjectiveCName("sizeToFit")
 	void sizeToFit();
+
+	// ---------------------------------------------------------------------
+	// Laying out Subviews
+	// ---------------------------------------------------------------------
+
+	@ObjectiveCName("layoutSubviews")
+	void layoutSubviews();
+
+	@ObjectiveCName("setNeedsLayout")
+	void setNeedsLayout();
+
+	@ObjectiveCName("layoutIfNeeded")
+	void layoutIfNeeded();
+
+	@ObjectiveCName("requiresConstraintBasedLayout")
+	boolean requiresConstraintBasedLayout(); // TODO
+
+	@ObjectiveCName("translatesAutoresizingMaskIntoConstraints")
+	boolean translatesAutoresizingMaskIntoConstraints();
+
+	@ObjectiveCName("setTranslatesAutoresizingMaskIntoConstraints:")
+	void setTranslatesAutoresizingMaskIntoConstraints(boolean translatesAutoresizingMaskIntoConstraints);
 }

@@ -265,4 +265,40 @@ public class UIViewStub implements UIView {
 		
 	}
 
+	@Override
+	public void layoutSubviews() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setNeedsLayout() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void layoutIfNeeded() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean requiresConstraintBasedLayout() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean translatesAutoresizingMaskIntoConstraints() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setTranslatesAutoresizingMaskIntoConstraints(boolean translatesAutoresizingMaskIntoConstraints) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
