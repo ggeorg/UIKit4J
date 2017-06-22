@@ -12,7 +12,7 @@ public final class CGRect {
 	public final CGSize size;
 	
 	@ObjectiveCName("x:y:width:height:")
-	public CGRect(float x, float y, float width, float height) {
+	public CGRect(double x, double y, double width, double height) {
 		this.origin = new CGPoint(x, y);
 		this.size = new CGSize(width, height);
 	}

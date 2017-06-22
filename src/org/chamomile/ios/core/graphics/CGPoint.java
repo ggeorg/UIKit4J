@@ -8,11 +8,10 @@ import com.google.j2objc.annotations.ObjectiveCName;
  * @author ggeorg
  */
 public final class CGPoint {
-	public final float x;
-	public final float y;
+	public final double x, y;
 
 	@ObjectiveCName("x:y:")
-	public CGPoint(float x, float y) {
+	public CGPoint(double x, double y) {
 		this.x = x;
 		this.y = y;
 	}

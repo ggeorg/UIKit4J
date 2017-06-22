@@ -8,11 +8,10 @@ import com.google.j2objc.annotations.ObjectiveCName;
  * @author ggeorg
  */
 public final class CGSize {
-	public final float width;
-	public final float height;
+	public final double width, height;
 
 	@ObjectiveCName("width:height:")
-	public CGSize(float width, float height) {
+	public CGSize(double width, double height) {
 		this.width = width;
 		this.height = height;
 	}

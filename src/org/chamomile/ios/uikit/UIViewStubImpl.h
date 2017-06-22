@@ -13,3 +13,19 @@
 - (void)java_setBounds:(OrgChamomileIosCoreGraphicsCGRect *)arg0 {
 	OrgChamomileIosUikitUIView_java_setBounds_(self, arg0);
 }
+
+- (OrgChamomileIosCoreGraphicsCGPoint *) java_getCenter {
+    return OrgChamomileIosUikitUIView_java_getCenter(self);
+}
+
+- (void)java_setCenter:(OrgChamomileIosCoreGraphicsCGPoint *)arg0 {
+	OrgChamomileIosUikitUIView_java_setCenter_(self, arg0);
+}
+
+- (OrgChamomileIosCoreGraphicsCGAffineTransform *) java_getTransform {
+    return OrgChamomileIosUikitUIView_java_getTransform(self);
+}
+
+- (void)java_setTransform:(OrgChamomileIosCoreGraphicsCGAffineTransform *)arg0 {
+	OrgChamomileIosUikitUIView_java_setTransform_(self, arg0);
+}

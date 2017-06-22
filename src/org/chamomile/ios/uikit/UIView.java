@@ -1,5 +1,6 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.core.graphics.CGAffineTransform;
 import org.chamomile.ios.core.graphics.CGPoint;
 import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.core.graphics.CGSize;
@@ -18,7 +19,7 @@ import com.google.j2objc.annotations.ObjectiveCName;
  */
 public interface UIView extends UIResponder {
 	final class UIViewFactory {
-		static native UIView viewWithRect(float x, float y, float width, float height) /*-[
+		static native UIView viewWithRect(double x, double y, double width, double height) /*-[
 		//@formatter:off
 			return (id<OrgChamomileIosUikitUIView>) [(UIView *)[OrgChamomileIosUikitUIView alloc] 
 				initWithFrame:CGRectMake(x, y, width, height)];
@@ -28,34 +29,68 @@ public interface UIView extends UIResponder {
 		static native CGRect getFrame(UIView view) /*-[
 		//@formatter:off
 			CGRect frame = [(UIView *)view frame];
-			float x = frame.origin.x;
-			float y = frame.origin.y;
-			float width  = frame.size.width;
-			float height = frame.size.height;
+			double x      = (double)frame.origin.x;
+			double y      = (double)frame.origin.y;
+			double width  = (double)frame.size.width;
+			double height = (double)frame.size.height;
 			return [[OrgChamomileIosCoreGraphicsCGRect alloc] x:x y:y width:width height:height];
 		//@formatter:on
 		]-*/;
 
-		static native void setFrame(UIView view, float x, float y, float width, float height) /*-[
+		static native void setFrame(UIView view, double x, double y, double width, double height) /*-[
 		//@formatter:off
-			[(UIView *)view setFrame:CGRectMake(x, y, width, height)];
+			[(UIView *)view setFrame:CGRectMake((CGFloat)x, (CGFloat)y, (CGFloat)width, (CGFloat)height)];
 		//@formatter:on
 		]-*/;
 
 		static native CGRect getBounds(UIView view) /*-[
 		//@formatter:off
 			CGRect bounds = [(UIView *)view bounds];
-			float x = bounds.origin.x;
-			float y = bounds.origin.y;
-			float width  = bounds.size.width;
-			float height = bounds.size.height;
+			double x      = (double)bounds.origin.x;
+			double y      = (double)bounds.origin.y;
+			double width  = (double)bounds.size.width;
+			double height = (double)bounds.size.height;
 			return [[OrgChamomileIosCoreGraphicsCGRect alloc] x:x y:y width:width height:height];
 		//@formatter:on
 		]-*/;
 
-		static native void setBounds(UIView view, float x, float y, float width, float height) /*-[
+		static native void setBounds(UIView view, double x, double y, double width, double height) /*-[
 		//@formatter:off
-			[(UIView *)view setBounds:CGRectMake(x, y, width, height)];
+			[(UIView *)view setBounds:CGRectMake((CGFloat)x, (CGFloat)y, (CGFloat)width, (CGFloat)height)];
+		//@formatter:on
+		]-*/;
+
+		static native CGPoint getCenter(UIView view) /*-[
+		//@formatter:off
+			CGPoint center = [(UIView *)view center];
+			double x = (double)center.x;
+			double y = (double)center.y;
+			return [[OrgChamomileIosCoreGraphicsCGPoint alloc] x:x y:y];
+		//@formatter:on
+		]-*/;
+
+		static native void setCenter(UIView view, double x, double y) /*-[
+		//@formatter:off
+			[(UIView *)view setCenter:CGPointMake((CGFloat)x, (CGFloat)y)];
+		//@formatter:on
+		]-*/;
+
+		static native CGAffineTransform getTransform(UIView view) /*-[
+		//@formatter:off
+			CGAffineTransform transform = [(UIView *)view transform];
+			double a  = (double)transform.a;
+			double b  = (double)transform.b;
+			double c  = (double)transform.c;
+			double d  = (double)transform.d;
+			double tx = (double)transform.tx;
+			double ty = (double)transform.ty;
+			return [[OrgChamomileIosCoreGraphicsCGAffineTransform alloc] a:a b:b c:c d:d tx:tx ty:ty];
+		//@formatter:on
+		]-*/;
+
+		static native void setTransform(UIView view, double a, double b, double c, double d, double tx, double ty) /*-[
+		//@formatter:off
+			[(UIView *)view setTransform:CGAffineTransformMake((CGFloat)a, (CGFloat)b, (CGFloat)c, (CGFloat)d, (CGFloat)tx, (CGFloat)ty)];
 		//@formatter:on
 		]-*/;
 	}
@@ -143,7 +178,8 @@ public interface UIView extends UIResponder {
 
 	@ObjectiveCName("java_setFrame:")
 	default void setFrame(CGRect frame) {
-		UIViewFactory.setFrame(this, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+		UIViewFactory.setFrame(this, frame.origin.x, frame.origin.y,
+				frame.size.width, frame.size.height);
 	}
 
 	@ObjectiveCName("java_getBounds")
@@ -153,7 +189,29 @@ public interface UIView extends UIResponder {
 
 	@ObjectiveCName("java_setBounds:")
 	default void setBounds(CGRect frame) {
-		UIViewFactory.setBounds(this, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+		UIViewFactory.setBounds(this, frame.origin.x, frame.origin.y,
+				frame.size.width, frame.size.height);
+	}
+
+	@ObjectiveCName("java_getCenter")
+	default CGPoint getCenter() {
+		return UIViewFactory.getCenter(this);
+	}
+
+	@ObjectiveCName("java_setCenter:")
+	default void setCenter(CGPoint center) {
+		UIViewFactory.setCenter(this, center.x, center.y);
+	}
+
+	@ObjectiveCName("java_getTransform")
+	default CGAffineTransform getTransform() {
+		return UIViewFactory.getTransform(this);
+	}
+
+	@ObjectiveCName("java_setTransform:")
+	default void setTransform(CGAffineTransform transform) {
+		UIViewFactory.setTransform(this, transform.a, transform.b, transform.c, transform.d,
+				transform.tx, transform.ty);
 	}
 
 	// ---------------------------------------------------------------------
