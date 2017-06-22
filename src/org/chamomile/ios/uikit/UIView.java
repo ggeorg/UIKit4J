@@ -4,6 +4,7 @@ import org.chamomile.ios.core.graphics.CGAffineTransform;
 import org.chamomile.ios.core.graphics.CGPoint;
 import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.core.graphics.CGSize;
+import org.chamomile.ios.foundation.NSArray;
 
 import com.google.j2objc.annotations.ObjectiveCName;
 
@@ -139,7 +140,11 @@ public interface UIView extends UIResponder {
 	@ObjectiveCName("setTintColor:")
 	void setTintColor(UIColor tintColor);
 
-	// TODO tintAdjustmentMode
+	@ObjectiveCName("tintAdjustmentMode")
+	/* UIViewTintAdjustmentMode */int getTintAdjustmentMode();
+	
+	@ObjectiveCName("setTintAdjustmentMode:")
+	void setTintAdjustmentMode(/* UIViewTintAdjustmentMode */int tintAdjustmentMode);
 
 	@ObjectiveCName("clipsToBounds")
 	boolean isClipsToBounds();
@@ -222,10 +227,10 @@ public interface UIView extends UIResponder {
 	UIView getSuperview();
 
 	@ObjectiveCName("subviews")
-	Object getSubviews(); // TODO result
+	NSArray<UIView> getSubviews();
 
 	@ObjectiveCName("window")
-	Object getWindow(); // TODO result
+	UIWindow getWindow();
 
 	@ObjectiveCName("addSubview:")
 	void addSubview(UIView view);

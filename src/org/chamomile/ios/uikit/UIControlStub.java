@@ -68,16 +68,4 @@ public class UIControlStub extends UIViewStub implements UIControl {
 		
 	}
 
-	@Override
-	public int getEffectiveContentHorizontalAlignment() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setEffectiveContentHorizontalAlignment(int effectiveContentHorizontalAlignment) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

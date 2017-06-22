@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    //[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    UIViewTintAdjustmentMode k;
     
     NSLog(@"=====%f", [self.view alpha]);
     [self.view setAlpha:.5];

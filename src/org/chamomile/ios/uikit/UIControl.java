@@ -65,12 +65,8 @@ public interface UIControl extends UIView, UIControlState, UIControlEvents, UICo
 	@ObjectiveCName("setContentHorizontalAlignment:")
 	void setContentHorizontalAlignment(/* UIControlContentHorizontalAlignment */int contentHorizontalAlignment);
 
-	@ObjectiveCName("effectiveContentHorizontalAlignment")
-	/* UIControlContentHorizontalAlignment */int getEffectiveContentHorizontalAlignment();
-
-	@ObjectiveCName("setEffectiveContentHorizontalAlignment:")
-	void setEffectiveContentHorizontalAlignment(
-			/* UIControlContentHorizontalAlignment */int effectiveContentHorizontalAlignment);
+//	@ObjectiveCName("effectiveContentHorizontalAlignment")
+//	/* UIControlContentHorizontalAlignment */int getEffectiveContentHorizontalAlignment();
 
 	// ---------------------------------------------------------------------
 	// Accessing the Control’s Targets and Actions

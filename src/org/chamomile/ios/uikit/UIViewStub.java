@@ -1,5 +1,7 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.foundation.NSArray;
+
 import com.google.j2objc.annotations.ObjectiveCName;
 
 @ObjectiveCName("UIView")
@@ -108,13 +110,13 @@ public class UIViewStub implements UIView {
 	}
 
 	@Override
-	public Object getSubviews() {
+	public NSArray<UIView> getSubviews() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Object getWindow() {
+	public UIWindow getWindow() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -169,6 +171,18 @@ public class UIViewStub implements UIView {
 
 	@Override
 	public void isDescendantOfView(UIView view) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getTintAdjustmentMode() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setTintAdjustmentMode(int tintAdjustmentMode) {
 		// TODO Auto-generated method stub
 		
 	}

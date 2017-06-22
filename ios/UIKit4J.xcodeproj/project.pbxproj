@@ -7,33 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC31023E1EFC068F000AEB4C /* CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102051EFC068E000AEB4C /* CGAffineTransform.m */; };
-		CC31023F1EFC068F000AEB4C /* CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102071EFC068E000AEB4C /* CGPoint.m */; };
-		CC3102401EFC068F000AEB4C /* CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102091EFC068E000AEB4C /* CGRect.m */; };
-		CC3102411EFC068F000AEB4C /* CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31020B1EFC068E000AEB4C /* CGSize.m */; };
-		CC3102421EFC068F000AEB4C /* NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31020E1EFC068E000AEB4C /* NSAttributedString.m */; };
-		CC3102431EFC068F000AEB4C /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102101EFC068E000AEB4C /* NSObject.m */; };
-		CC3102441EFC068F000AEB4C /* Showcase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102121EFC068E000AEB4C /* Showcase.m */; };
-		CC3102451EFC068F000AEB4C /* NSLineBreakMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102151EFC068E000AEB4C /* NSLineBreakMode.m */; };
-		CC3102461EFC068F000AEB4C /* NSTextAlignmentLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102171EFC068E000AEB4C /* NSTextAlignmentLeft.m */; };
-		CC3102471EFC068F000AEB4C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102191EFC068E000AEB4C /* UIButton.m */; };
-		CC3102481EFC068F000AEB4C /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31021B1EFC068E000AEB4C /* UIButtonStub.m */; };
-		CC3102491EFC068F000AEB4C /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31021D1EFC068E000AEB4C /* UIColor.m */; };
-		CC31024A1EFC068F000AEB4C /* UIColorStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31021F1EFC068E000AEB4C /* UIColorStub.m */; };
-		CC31024B1EFC068F000AEB4C /* UIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102211EFC068E000AEB4C /* UIControl.m */; };
-		CC31024C1EFC068F000AEB4C /* UIControlContentHorizontalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102231EFC068E000AEB4C /* UIControlContentHorizontalAlignment.m */; };
-		CC31024D1EFC068F000AEB4C /* UIControlContentVerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102251EFC068E000AEB4C /* UIControlContentVerticalAlignment.m */; };
-		CC31024E1EFC068F000AEB4C /* UIControlEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102271EFC068E000AEB4C /* UIControlEvents.m */; };
-		CC31024F1EFC068F000AEB4C /* UIControlState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102291EFC068E000AEB4C /* UIControlState.m */; };
-		CC3102501EFC068F000AEB4C /* UIControlStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31022B1EFC068E000AEB4C /* UIControlStub.m */; };
-		CC3102511EFC068F000AEB4C /* UIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31022E1EFC068E000AEB4C /* UIEvent.m */; };
-		CC3102521EFC068F000AEB4C /* UIEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102301EFC068E000AEB4C /* UIEventHandler.m */; };
-		CC3102531EFC068F000AEB4C /* UIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102321EFC068E000AEB4C /* UIFont.m */; };
-		CC3102541EFC068F000AEB4C /* UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102341EFC068E000AEB4C /* UILabel.m */; };
-		CC3102551EFC068F000AEB4C /* UILabelStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102361EFC068E000AEB4C /* UILabelStub.m */; };
-		CC3102561EFC068F000AEB4C /* UIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102381EFC068E000AEB4C /* UIResponder.m */; };
-		CC3102571EFC068F000AEB4C /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31023A1EFC068E000AEB4C /* UIView.m */; };
-		CC3102581EFC068F000AEB4C /* UIViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31023C1EFC068E000AEB4C /* UIViewStub.m */; };
+		CC3102FB1EFC0C5B000AEB4C /* CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102BC1EFC0C5B000AEB4C /* CGAffineTransform.m */; };
+		CC3102FC1EFC0C5B000AEB4C /* CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102BE1EFC0C5B000AEB4C /* CGPoint.m */; };
+		CC3102FD1EFC0C5B000AEB4C /* CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102C01EFC0C5B000AEB4C /* CGRect.m */; };
+		CC3102FE1EFC0C5B000AEB4C /* CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102C21EFC0C5B000AEB4C /* CGSize.m */; };
+		CC3102FF1EFC0C5B000AEB4C /* NSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102C51EFC0C5B000AEB4C /* NSArray.m */; };
+		CC3103001EFC0C5B000AEB4C /* NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102C71EFC0C5B000AEB4C /* NSAttributedString.m */; };
+		CC3103011EFC0C5B000AEB4C /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102C91EFC0C5B000AEB4C /* NSObject.m */; };
+		CC3103021EFC0C5B000AEB4C /* Showcase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102CB1EFC0C5B000AEB4C /* Showcase.m */; };
+		CC3103031EFC0C5B000AEB4C /* NSLineBreakMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102CE1EFC0C5B000AEB4C /* NSLineBreakMode.m */; };
+		CC3103041EFC0C5B000AEB4C /* NSTextAlignmentLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102D01EFC0C5B000AEB4C /* NSTextAlignmentLeft.m */; };
+		CC3103051EFC0C5B000AEB4C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102D21EFC0C5B000AEB4C /* UIButton.m */; };
+		CC3103061EFC0C5B000AEB4C /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102D41EFC0C5B000AEB4C /* UIButtonStub.m */; };
+		CC3103071EFC0C5B000AEB4C /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102D61EFC0C5B000AEB4C /* UIColor.m */; };
+		CC3103081EFC0C5B000AEB4C /* UIColorStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102D81EFC0C5B000AEB4C /* UIColorStub.m */; };
+		CC3103091EFC0C5B000AEB4C /* UIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102DA1EFC0C5B000AEB4C /* UIControl.m */; };
+		CC31030A1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102DC1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.m */; };
+		CC31030B1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102DE1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.m */; };
+		CC31030C1EFC0C5B000AEB4C /* UIControlEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102E01EFC0C5B000AEB4C /* UIControlEvents.m */; };
+		CC31030D1EFC0C5B000AEB4C /* UIControlState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102E21EFC0C5B000AEB4C /* UIControlState.m */; };
+		CC31030E1EFC0C5B000AEB4C /* UIControlStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102E41EFC0C5B000AEB4C /* UIControlStub.m */; };
+		CC31030F1EFC0C5B000AEB4C /* UIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102E71EFC0C5B000AEB4C /* UIEvent.m */; };
+		CC3103101EFC0C5B000AEB4C /* UIEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102E91EFC0C5B000AEB4C /* UIEventHandler.m */; };
+		CC3103111EFC0C5B000AEB4C /* UIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102EB1EFC0C5B000AEB4C /* UIFont.m */; };
+		CC3103121EFC0C5B000AEB4C /* UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102ED1EFC0C5B000AEB4C /* UILabel.m */; };
+		CC3103131EFC0C5B000AEB4C /* UILabelStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102EF1EFC0C5B000AEB4C /* UILabelStub.m */; };
+		CC3103141EFC0C5B000AEB4C /* UIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102F11EFC0C5B000AEB4C /* UIResponder.m */; };
+		CC3103151EFC0C5B000AEB4C /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102F31EFC0C5B000AEB4C /* UIView.m */; };
+		CC3103161EFC0C5B000AEB4C /* UIViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102F51EFC0C5B000AEB4C /* UIViewStub.m */; };
+		CC3103171EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102F81EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.m */; };
+		CC3103181EFC0C5B000AEB4C /* UIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3102FA1EFC0C5B000AEB4C /* UIWindow.m */; };
 		CC3431ED1EF6888A00C48A8D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3431EC1EF6888A00C48A8D /* libiconv.tbd */; };
 		CCB521F71EF687E5008AC52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F61EF687E5008AC52F /* main.m */; };
 		CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F91EF687E5008AC52F /* AppDelegate.m */; };
@@ -44,62 +47,68 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC3102041EFC068E000AEB4C /* CGAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransform.h; sourceTree = "<group>"; };
-		CC3102051EFC068E000AEB4C /* CGAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransform.m; sourceTree = "<group>"; };
-		CC3102061EFC068E000AEB4C /* CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPoint.h; sourceTree = "<group>"; };
-		CC3102071EFC068E000AEB4C /* CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPoint.m; sourceTree = "<group>"; };
-		CC3102081EFC068E000AEB4C /* CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRect.h; sourceTree = "<group>"; };
-		CC3102091EFC068E000AEB4C /* CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRect.m; sourceTree = "<group>"; };
-		CC31020A1EFC068E000AEB4C /* CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSize.h; sourceTree = "<group>"; };
-		CC31020B1EFC068E000AEB4C /* CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSize.m; sourceTree = "<group>"; };
-		CC31020D1EFC068E000AEB4C /* NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedString.h; sourceTree = "<group>"; };
-		CC31020E1EFC068E000AEB4C /* NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedString.m; sourceTree = "<group>"; };
-		CC31020F1EFC068E000AEB4C /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
-		CC3102101EFC068E000AEB4C /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
-		CC3102111EFC068E000AEB4C /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcase.h; sourceTree = "<group>"; };
-		CC3102121EFC068E000AEB4C /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcase.m; sourceTree = "<group>"; };
-		CC3102141EFC068E000AEB4C /* NSLineBreakMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLineBreakMode.h; sourceTree = "<group>"; };
-		CC3102151EFC068E000AEB4C /* NSLineBreakMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLineBreakMode.m; sourceTree = "<group>"; };
-		CC3102161EFC068E000AEB4C /* NSTextAlignmentLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextAlignmentLeft.h; sourceTree = "<group>"; };
-		CC3102171EFC068E000AEB4C /* NSTextAlignmentLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextAlignmentLeft.m; sourceTree = "<group>"; };
-		CC3102181EFC068E000AEB4C /* UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton.h; sourceTree = "<group>"; };
-		CC3102191EFC068E000AEB4C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
-		CC31021A1EFC068E000AEB4C /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
-		CC31021B1EFC068E000AEB4C /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
-		CC31021C1EFC068E000AEB4C /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
-		CC31021D1EFC068E000AEB4C /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
-		CC31021E1EFC068E000AEB4C /* UIColorStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorStub.h; sourceTree = "<group>"; };
-		CC31021F1EFC068E000AEB4C /* UIColorStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorStub.m; sourceTree = "<group>"; };
-		CC3102201EFC068E000AEB4C /* UIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControl.h; sourceTree = "<group>"; };
-		CC3102211EFC068E000AEB4C /* UIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControl.m; sourceTree = "<group>"; };
-		CC3102221EFC068E000AEB4C /* UIControlContentHorizontalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlContentHorizontalAlignment.h; sourceTree = "<group>"; };
-		CC3102231EFC068E000AEB4C /* UIControlContentHorizontalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlContentHorizontalAlignment.m; sourceTree = "<group>"; };
-		CC3102241EFC068E000AEB4C /* UIControlContentVerticalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlContentVerticalAlignment.h; sourceTree = "<group>"; };
-		CC3102251EFC068E000AEB4C /* UIControlContentVerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlContentVerticalAlignment.m; sourceTree = "<group>"; };
-		CC3102261EFC068E000AEB4C /* UIControlEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlEvents.h; sourceTree = "<group>"; };
-		CC3102271EFC068E000AEB4C /* UIControlEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlEvents.m; sourceTree = "<group>"; };
-		CC3102281EFC068E000AEB4C /* UIControlState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlState.h; sourceTree = "<group>"; };
-		CC3102291EFC068E000AEB4C /* UIControlState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlState.m; sourceTree = "<group>"; };
-		CC31022A1EFC068E000AEB4C /* UIControlStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlStub.h; sourceTree = "<group>"; };
-		CC31022B1EFC068E000AEB4C /* UIControlStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlStub.m; sourceTree = "<group>"; };
-		CC31022C1EFC068E000AEB4C /* UIControlStubImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlStubImpl.h; sourceTree = "<group>"; };
-		CC31022D1EFC068E000AEB4C /* UIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEvent.h; sourceTree = "<group>"; };
-		CC31022E1EFC068E000AEB4C /* UIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEvent.m; sourceTree = "<group>"; };
-		CC31022F1EFC068E000AEB4C /* UIEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEventHandler.h; sourceTree = "<group>"; };
-		CC3102301EFC068E000AEB4C /* UIEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEventHandler.m; sourceTree = "<group>"; };
-		CC3102311EFC068E000AEB4C /* UIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFont.h; sourceTree = "<group>"; };
-		CC3102321EFC068E000AEB4C /* UIFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFont.m; sourceTree = "<group>"; };
-		CC3102331EFC068E000AEB4C /* UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabel.h; sourceTree = "<group>"; };
-		CC3102341EFC068E000AEB4C /* UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabel.m; sourceTree = "<group>"; };
-		CC3102351EFC068E000AEB4C /* UILabelStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelStub.h; sourceTree = "<group>"; };
-		CC3102361EFC068E000AEB4C /* UILabelStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelStub.m; sourceTree = "<group>"; };
-		CC3102371EFC068E000AEB4C /* UIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResponder.h; sourceTree = "<group>"; };
-		CC3102381EFC068E000AEB4C /* UIResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResponder.m; sourceTree = "<group>"; };
-		CC3102391EFC068E000AEB4C /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
-		CC31023A1EFC068E000AEB4C /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
-		CC31023B1EFC068E000AEB4C /* UIViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStub.h; sourceTree = "<group>"; };
-		CC31023C1EFC068E000AEB4C /* UIViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewStub.m; sourceTree = "<group>"; };
-		CC31023D1EFC068F000AEB4C /* UIViewStubImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStubImpl.h; sourceTree = "<group>"; };
+		CC3102BB1EFC0C5B000AEB4C /* CGAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransform.h; sourceTree = "<group>"; };
+		CC3102BC1EFC0C5B000AEB4C /* CGAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransform.m; sourceTree = "<group>"; };
+		CC3102BD1EFC0C5B000AEB4C /* CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPoint.h; sourceTree = "<group>"; };
+		CC3102BE1EFC0C5B000AEB4C /* CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPoint.m; sourceTree = "<group>"; };
+		CC3102BF1EFC0C5B000AEB4C /* CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRect.h; sourceTree = "<group>"; };
+		CC3102C01EFC0C5B000AEB4C /* CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRect.m; sourceTree = "<group>"; };
+		CC3102C11EFC0C5B000AEB4C /* CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSize.h; sourceTree = "<group>"; };
+		CC3102C21EFC0C5B000AEB4C /* CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSize.m; sourceTree = "<group>"; };
+		CC3102C41EFC0C5B000AEB4C /* NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
+		CC3102C51EFC0C5B000AEB4C /* NSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
+		CC3102C61EFC0C5B000AEB4C /* NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedString.h; sourceTree = "<group>"; };
+		CC3102C71EFC0C5B000AEB4C /* NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedString.m; sourceTree = "<group>"; };
+		CC3102C81EFC0C5B000AEB4C /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
+		CC3102C91EFC0C5B000AEB4C /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
+		CC3102CA1EFC0C5B000AEB4C /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcase.h; sourceTree = "<group>"; };
+		CC3102CB1EFC0C5B000AEB4C /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcase.m; sourceTree = "<group>"; };
+		CC3102CD1EFC0C5B000AEB4C /* NSLineBreakMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLineBreakMode.h; sourceTree = "<group>"; };
+		CC3102CE1EFC0C5B000AEB4C /* NSLineBreakMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLineBreakMode.m; sourceTree = "<group>"; };
+		CC3102CF1EFC0C5B000AEB4C /* NSTextAlignmentLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextAlignmentLeft.h; sourceTree = "<group>"; };
+		CC3102D01EFC0C5B000AEB4C /* NSTextAlignmentLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextAlignmentLeft.m; sourceTree = "<group>"; };
+		CC3102D11EFC0C5B000AEB4C /* UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton.h; sourceTree = "<group>"; };
+		CC3102D21EFC0C5B000AEB4C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
+		CC3102D31EFC0C5B000AEB4C /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
+		CC3102D41EFC0C5B000AEB4C /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
+		CC3102D51EFC0C5B000AEB4C /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		CC3102D61EFC0C5B000AEB4C /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
+		CC3102D71EFC0C5B000AEB4C /* UIColorStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorStub.h; sourceTree = "<group>"; };
+		CC3102D81EFC0C5B000AEB4C /* UIColorStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorStub.m; sourceTree = "<group>"; };
+		CC3102D91EFC0C5B000AEB4C /* UIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControl.h; sourceTree = "<group>"; };
+		CC3102DA1EFC0C5B000AEB4C /* UIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControl.m; sourceTree = "<group>"; };
+		CC3102DB1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlContentHorizontalAlignment.h; sourceTree = "<group>"; };
+		CC3102DC1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlContentHorizontalAlignment.m; sourceTree = "<group>"; };
+		CC3102DD1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlContentVerticalAlignment.h; sourceTree = "<group>"; };
+		CC3102DE1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlContentVerticalAlignment.m; sourceTree = "<group>"; };
+		CC3102DF1EFC0C5B000AEB4C /* UIControlEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlEvents.h; sourceTree = "<group>"; };
+		CC3102E01EFC0C5B000AEB4C /* UIControlEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlEvents.m; sourceTree = "<group>"; };
+		CC3102E11EFC0C5B000AEB4C /* UIControlState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlState.h; sourceTree = "<group>"; };
+		CC3102E21EFC0C5B000AEB4C /* UIControlState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlState.m; sourceTree = "<group>"; };
+		CC3102E31EFC0C5B000AEB4C /* UIControlStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlStub.h; sourceTree = "<group>"; };
+		CC3102E41EFC0C5B000AEB4C /* UIControlStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlStub.m; sourceTree = "<group>"; };
+		CC3102E51EFC0C5B000AEB4C /* UIControlStubImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlStubImpl.h; sourceTree = "<group>"; };
+		CC3102E61EFC0C5B000AEB4C /* UIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEvent.h; sourceTree = "<group>"; };
+		CC3102E71EFC0C5B000AEB4C /* UIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEvent.m; sourceTree = "<group>"; };
+		CC3102E81EFC0C5B000AEB4C /* UIEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEventHandler.h; sourceTree = "<group>"; };
+		CC3102E91EFC0C5B000AEB4C /* UIEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEventHandler.m; sourceTree = "<group>"; };
+		CC3102EA1EFC0C5B000AEB4C /* UIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFont.h; sourceTree = "<group>"; };
+		CC3102EB1EFC0C5B000AEB4C /* UIFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFont.m; sourceTree = "<group>"; };
+		CC3102EC1EFC0C5B000AEB4C /* UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabel.h; sourceTree = "<group>"; };
+		CC3102ED1EFC0C5B000AEB4C /* UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabel.m; sourceTree = "<group>"; };
+		CC3102EE1EFC0C5B000AEB4C /* UILabelStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelStub.h; sourceTree = "<group>"; };
+		CC3102EF1EFC0C5B000AEB4C /* UILabelStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelStub.m; sourceTree = "<group>"; };
+		CC3102F01EFC0C5B000AEB4C /* UIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResponder.h; sourceTree = "<group>"; };
+		CC3102F11EFC0C5B000AEB4C /* UIResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResponder.m; sourceTree = "<group>"; };
+		CC3102F21EFC0C5B000AEB4C /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
+		CC3102F31EFC0C5B000AEB4C /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
+		CC3102F41EFC0C5B000AEB4C /* UIViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStub.h; sourceTree = "<group>"; };
+		CC3102F51EFC0C5B000AEB4C /* UIViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewStub.m; sourceTree = "<group>"; };
+		CC3102F61EFC0C5B000AEB4C /* UIViewStubImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStubImpl.h; sourceTree = "<group>"; };
+		CC3102F71EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTintAdjustmentMode.h; sourceTree = "<group>"; };
+		CC3102F81EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTintAdjustmentMode.m; sourceTree = "<group>"; };
+		CC3102F91EFC0C5B000AEB4C /* UIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindow.h; sourceTree = "<group>"; };
+		CC3102FA1EFC0C5B000AEB4C /* UIWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWindow.m; sourceTree = "<group>"; };
 		CC3431EC1EF6888A00C48A8D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		CCB521F21EF687E5008AC52F /* UIKit4J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit4J.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB521F61EF687E5008AC52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,114 +134,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC3101FF1EFC068E000AEB4C /* org */ = {
+		CC3102B61EFC0C5B000AEB4C /* org */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102001EFC068E000AEB4C /* chamomile */,
+				CC3102B71EFC0C5B000AEB4C /* chamomile */,
 			);
 			name = org;
 			path = ../build/objc/org;
 			sourceTree = "<group>";
 		};
-		CC3102001EFC068E000AEB4C /* chamomile */ = {
+		CC3102B71EFC0C5B000AEB4C /* chamomile */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102011EFC068E000AEB4C /* ios */,
+				CC3102B81EFC0C5B000AEB4C /* ios */,
 			);
 			path = chamomile;
 			sourceTree = "<group>";
 		};
-		CC3102011EFC068E000AEB4C /* ios */ = {
+		CC3102B81EFC0C5B000AEB4C /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102021EFC068E000AEB4C /* core */,
-				CC31020C1EFC068E000AEB4C /* foundation */,
-				CC3102111EFC068E000AEB4C /* Showcase.h */,
-				CC3102121EFC068E000AEB4C /* Showcase.m */,
-				CC3102131EFC068E000AEB4C /* uikit */,
+				CC3102B91EFC0C5B000AEB4C /* core */,
+				CC3102C31EFC0C5B000AEB4C /* foundation */,
+				CC3102CA1EFC0C5B000AEB4C /* Showcase.h */,
+				CC3102CB1EFC0C5B000AEB4C /* Showcase.m */,
+				CC3102CC1EFC0C5B000AEB4C /* uikit */,
 			);
 			path = ios;
 			sourceTree = "<group>";
 		};
-		CC3102021EFC068E000AEB4C /* core */ = {
+		CC3102B91EFC0C5B000AEB4C /* core */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102031EFC068E000AEB4C /* graphics */,
+				CC3102BA1EFC0C5B000AEB4C /* graphics */,
 			);
 			path = core;
 			sourceTree = "<group>";
 		};
-		CC3102031EFC068E000AEB4C /* graphics */ = {
+		CC3102BA1EFC0C5B000AEB4C /* graphics */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102041EFC068E000AEB4C /* CGAffineTransform.h */,
-				CC3102051EFC068E000AEB4C /* CGAffineTransform.m */,
-				CC3102061EFC068E000AEB4C /* CGPoint.h */,
-				CC3102071EFC068E000AEB4C /* CGPoint.m */,
-				CC3102081EFC068E000AEB4C /* CGRect.h */,
-				CC3102091EFC068E000AEB4C /* CGRect.m */,
-				CC31020A1EFC068E000AEB4C /* CGSize.h */,
-				CC31020B1EFC068E000AEB4C /* CGSize.m */,
+				CC3102BB1EFC0C5B000AEB4C /* CGAffineTransform.h */,
+				CC3102BC1EFC0C5B000AEB4C /* CGAffineTransform.m */,
+				CC3102BD1EFC0C5B000AEB4C /* CGPoint.h */,
+				CC3102BE1EFC0C5B000AEB4C /* CGPoint.m */,
+				CC3102BF1EFC0C5B000AEB4C /* CGRect.h */,
+				CC3102C01EFC0C5B000AEB4C /* CGRect.m */,
+				CC3102C11EFC0C5B000AEB4C /* CGSize.h */,
+				CC3102C21EFC0C5B000AEB4C /* CGSize.m */,
 			);
 			path = graphics;
 			sourceTree = "<group>";
 		};
-		CC31020C1EFC068E000AEB4C /* foundation */ = {
+		CC3102C31EFC0C5B000AEB4C /* foundation */ = {
 			isa = PBXGroup;
 			children = (
-				CC31020D1EFC068E000AEB4C /* NSAttributedString.h */,
-				CC31020E1EFC068E000AEB4C /* NSAttributedString.m */,
-				CC31020F1EFC068E000AEB4C /* NSObject.h */,
-				CC3102101EFC068E000AEB4C /* NSObject.m */,
+				CC3102C41EFC0C5B000AEB4C /* NSArray.h */,
+				CC3102C51EFC0C5B000AEB4C /* NSArray.m */,
+				CC3102C61EFC0C5B000AEB4C /* NSAttributedString.h */,
+				CC3102C71EFC0C5B000AEB4C /* NSAttributedString.m */,
+				CC3102C81EFC0C5B000AEB4C /* NSObject.h */,
+				CC3102C91EFC0C5B000AEB4C /* NSObject.m */,
 			);
 			path = foundation;
 			sourceTree = "<group>";
 		};
-		CC3102131EFC068E000AEB4C /* uikit */ = {
+		CC3102CC1EFC0C5B000AEB4C /* uikit */ = {
 			isa = PBXGroup;
 			children = (
-				CC3102141EFC068E000AEB4C /* NSLineBreakMode.h */,
-				CC3102151EFC068E000AEB4C /* NSLineBreakMode.m */,
-				CC3102161EFC068E000AEB4C /* NSTextAlignmentLeft.h */,
-				CC3102171EFC068E000AEB4C /* NSTextAlignmentLeft.m */,
-				CC3102181EFC068E000AEB4C /* UIButton.h */,
-				CC3102191EFC068E000AEB4C /* UIButton.m */,
-				CC31021A1EFC068E000AEB4C /* UIButtonStub.h */,
-				CC31021B1EFC068E000AEB4C /* UIButtonStub.m */,
-				CC31021C1EFC068E000AEB4C /* UIColor.h */,
-				CC31021D1EFC068E000AEB4C /* UIColor.m */,
-				CC31021E1EFC068E000AEB4C /* UIColorStub.h */,
-				CC31021F1EFC068E000AEB4C /* UIColorStub.m */,
-				CC3102201EFC068E000AEB4C /* UIControl.h */,
-				CC3102211EFC068E000AEB4C /* UIControl.m */,
-				CC3102221EFC068E000AEB4C /* UIControlContentHorizontalAlignment.h */,
-				CC3102231EFC068E000AEB4C /* UIControlContentHorizontalAlignment.m */,
-				CC3102241EFC068E000AEB4C /* UIControlContentVerticalAlignment.h */,
-				CC3102251EFC068E000AEB4C /* UIControlContentVerticalAlignment.m */,
-				CC3102261EFC068E000AEB4C /* UIControlEvents.h */,
-				CC3102271EFC068E000AEB4C /* UIControlEvents.m */,
-				CC3102281EFC068E000AEB4C /* UIControlState.h */,
-				CC3102291EFC068E000AEB4C /* UIControlState.m */,
-				CC31022A1EFC068E000AEB4C /* UIControlStub.h */,
-				CC31022B1EFC068E000AEB4C /* UIControlStub.m */,
-				CC31022C1EFC068E000AEB4C /* UIControlStubImpl.h */,
-				CC31022D1EFC068E000AEB4C /* UIEvent.h */,
-				CC31022E1EFC068E000AEB4C /* UIEvent.m */,
-				CC31022F1EFC068E000AEB4C /* UIEventHandler.h */,
-				CC3102301EFC068E000AEB4C /* UIEventHandler.m */,
-				CC3102311EFC068E000AEB4C /* UIFont.h */,
-				CC3102321EFC068E000AEB4C /* UIFont.m */,
-				CC3102331EFC068E000AEB4C /* UILabel.h */,
-				CC3102341EFC068E000AEB4C /* UILabel.m */,
-				CC3102351EFC068E000AEB4C /* UILabelStub.h */,
-				CC3102361EFC068E000AEB4C /* UILabelStub.m */,
-				CC3102371EFC068E000AEB4C /* UIResponder.h */,
-				CC3102381EFC068E000AEB4C /* UIResponder.m */,
-				CC3102391EFC068E000AEB4C /* UIView.h */,
-				CC31023A1EFC068E000AEB4C /* UIView.m */,
-				CC31023B1EFC068E000AEB4C /* UIViewStub.h */,
-				CC31023C1EFC068E000AEB4C /* UIViewStub.m */,
-				CC31023D1EFC068F000AEB4C /* UIViewStubImpl.h */,
+				CC3102CD1EFC0C5B000AEB4C /* NSLineBreakMode.h */,
+				CC3102CE1EFC0C5B000AEB4C /* NSLineBreakMode.m */,
+				CC3102CF1EFC0C5B000AEB4C /* NSTextAlignmentLeft.h */,
+				CC3102D01EFC0C5B000AEB4C /* NSTextAlignmentLeft.m */,
+				CC3102D11EFC0C5B000AEB4C /* UIButton.h */,
+				CC3102D21EFC0C5B000AEB4C /* UIButton.m */,
+				CC3102D31EFC0C5B000AEB4C /* UIButtonStub.h */,
+				CC3102D41EFC0C5B000AEB4C /* UIButtonStub.m */,
+				CC3102D51EFC0C5B000AEB4C /* UIColor.h */,
+				CC3102D61EFC0C5B000AEB4C /* UIColor.m */,
+				CC3102D71EFC0C5B000AEB4C /* UIColorStub.h */,
+				CC3102D81EFC0C5B000AEB4C /* UIColorStub.m */,
+				CC3102D91EFC0C5B000AEB4C /* UIControl.h */,
+				CC3102DA1EFC0C5B000AEB4C /* UIControl.m */,
+				CC3102DB1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.h */,
+				CC3102DC1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.m */,
+				CC3102DD1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.h */,
+				CC3102DE1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.m */,
+				CC3102DF1EFC0C5B000AEB4C /* UIControlEvents.h */,
+				CC3102E01EFC0C5B000AEB4C /* UIControlEvents.m */,
+				CC3102E11EFC0C5B000AEB4C /* UIControlState.h */,
+				CC3102E21EFC0C5B000AEB4C /* UIControlState.m */,
+				CC3102E31EFC0C5B000AEB4C /* UIControlStub.h */,
+				CC3102E41EFC0C5B000AEB4C /* UIControlStub.m */,
+				CC3102E51EFC0C5B000AEB4C /* UIControlStubImpl.h */,
+				CC3102E61EFC0C5B000AEB4C /* UIEvent.h */,
+				CC3102E71EFC0C5B000AEB4C /* UIEvent.m */,
+				CC3102E81EFC0C5B000AEB4C /* UIEventHandler.h */,
+				CC3102E91EFC0C5B000AEB4C /* UIEventHandler.m */,
+				CC3102EA1EFC0C5B000AEB4C /* UIFont.h */,
+				CC3102EB1EFC0C5B000AEB4C /* UIFont.m */,
+				CC3102EC1EFC0C5B000AEB4C /* UILabel.h */,
+				CC3102ED1EFC0C5B000AEB4C /* UILabel.m */,
+				CC3102EE1EFC0C5B000AEB4C /* UILabelStub.h */,
+				CC3102EF1EFC0C5B000AEB4C /* UILabelStub.m */,
+				CC3102F01EFC0C5B000AEB4C /* UIResponder.h */,
+				CC3102F11EFC0C5B000AEB4C /* UIResponder.m */,
+				CC3102F21EFC0C5B000AEB4C /* UIView.h */,
+				CC3102F31EFC0C5B000AEB4C /* UIView.m */,
+				CC3102F41EFC0C5B000AEB4C /* UIViewStub.h */,
+				CC3102F51EFC0C5B000AEB4C /* UIViewStub.m */,
+				CC3102F61EFC0C5B000AEB4C /* UIViewStubImpl.h */,
+				CC3102F71EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.h */,
+				CC3102F81EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.m */,
+				CC3102F91EFC0C5B000AEB4C /* UIWindow.h */,
+				CC3102FA1EFC0C5B000AEB4C /* UIWindow.m */,
 			);
 			path = uikit;
 			sourceTree = "<group>";
@@ -248,7 +263,7 @@
 		CC3431EF1EF68D6900C48A8D /* java */ = {
 			isa = PBXGroup;
 			children = (
-				CC3101FF1EFC068E000AEB4C /* org */,
+				CC3102B61EFC0C5B000AEB4C /* org */,
 			);
 			name = java;
 			sourceTree = "<group>";
@@ -367,36 +382,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC31030C1EFC0C5B000AEB4C /* UIControlEvents.m in Sources */,
+				CC3103061EFC0C5B000AEB4C /* UIButtonStub.m in Sources */,
+				CC31030B1EFC0C5B000AEB4C /* UIControlContentVerticalAlignment.m in Sources */,
+				CC31030D1EFC0C5B000AEB4C /* UIControlState.m in Sources */,
+				CC3103091EFC0C5B000AEB4C /* UIControl.m in Sources */,
+				CC3103071EFC0C5B000AEB4C /* UIColor.m in Sources */,
 				CCB521FD1EF687E5008AC52F /* ViewController.m in Sources */,
-				CC31023F1EFC068F000AEB4C /* CGPoint.m in Sources */,
-				CC3102411EFC068F000AEB4C /* CGSize.m in Sources */,
-				CC31024A1EFC068F000AEB4C /* UIColorStub.m in Sources */,
-				CC3102531EFC068F000AEB4C /* UIFont.m in Sources */,
-				CC3102431EFC068F000AEB4C /* NSObject.m in Sources */,
-				CC3102501EFC068F000AEB4C /* UIControlStub.m in Sources */,
-				CC3102511EFC068F000AEB4C /* UIEvent.m in Sources */,
-				CC31023E1EFC068F000AEB4C /* CGAffineTransform.m in Sources */,
-				CC3102481EFC068F000AEB4C /* UIButtonStub.m in Sources */,
-				CC3102401EFC068F000AEB4C /* CGRect.m in Sources */,
+				CC3102FC1EFC0C5B000AEB4C /* CGPoint.m in Sources */,
+				CC3103181EFC0C5B000AEB4C /* UIWindow.m in Sources */,
+				CC3102FE1EFC0C5B000AEB4C /* CGSize.m in Sources */,
+				CC3103001EFC0C5B000AEB4C /* NSAttributedString.m in Sources */,
+				CC31030E1EFC0C5B000AEB4C /* UIControlStub.m in Sources */,
+				CC3103121EFC0C5B000AEB4C /* UILabel.m in Sources */,
+				CC3102FB1EFC0C5B000AEB4C /* CGAffineTransform.m in Sources */,
+				CC3103101EFC0C5B000AEB4C /* UIEventHandler.m in Sources */,
+				CC3103161EFC0C5B000AEB4C /* UIViewStub.m in Sources */,
+				CC3103151EFC0C5B000AEB4C /* UIView.m in Sources */,
+				CC3103011EFC0C5B000AEB4C /* NSObject.m in Sources */,
+				CC3103171EFC0C5B000AEB4C /* UIViewTintAdjustmentMode.m in Sources */,
+				CC3103041EFC0C5B000AEB4C /* NSTextAlignmentLeft.m in Sources */,
+				CC3103021EFC0C5B000AEB4C /* Showcase.m in Sources */,
+				CC3103031EFC0C5B000AEB4C /* NSLineBreakMode.m in Sources */,
+				CC31030A1EFC0C5B000AEB4C /* UIControlContentHorizontalAlignment.m in Sources */,
+				CC3103111EFC0C5B000AEB4C /* UIFont.m in Sources */,
+				CC3102FF1EFC0C5B000AEB4C /* NSArray.m in Sources */,
+				CC3103081EFC0C5B000AEB4C /* UIColorStub.m in Sources */,
+				CC3102FD1EFC0C5B000AEB4C /* CGRect.m in Sources */,
+				CC3103141EFC0C5B000AEB4C /* UIResponder.m in Sources */,
+				CC31030F1EFC0C5B000AEB4C /* UIEvent.m in Sources */,
+				CC3103131EFC0C5B000AEB4C /* UILabelStub.m in Sources */,
+				CC3103051EFC0C5B000AEB4C /* UIButton.m in Sources */,
 				CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */,
-				CC31024F1EFC068F000AEB4C /* UIControlState.m in Sources */,
-				CC3102551EFC068F000AEB4C /* UILabelStub.m in Sources */,
-				CC3102581EFC068F000AEB4C /* UIViewStub.m in Sources */,
-				CC3102491EFC068F000AEB4C /* UIColor.m in Sources */,
-				CC3102571EFC068F000AEB4C /* UIView.m in Sources */,
 				CCB521F71EF687E5008AC52F /* main.m in Sources */,
-				CC3102561EFC068F000AEB4C /* UIResponder.m in Sources */,
-				CC3102461EFC068F000AEB4C /* NSTextAlignmentLeft.m in Sources */,
-				CC3102471EFC068F000AEB4C /* UIButton.m in Sources */,
-				CC31024C1EFC068F000AEB4C /* UIControlContentHorizontalAlignment.m in Sources */,
-				CC3102521EFC068F000AEB4C /* UIEventHandler.m in Sources */,
-				CC31024B1EFC068F000AEB4C /* UIControl.m in Sources */,
-				CC3102451EFC068F000AEB4C /* NSLineBreakMode.m in Sources */,
-				CC31024E1EFC068F000AEB4C /* UIControlEvents.m in Sources */,
-				CC3102541EFC068F000AEB4C /* UILabel.m in Sources */,
-				CC31024D1EFC068F000AEB4C /* UIControlContentVerticalAlignment.m in Sources */,
-				CC3102441EFC068F000AEB4C /* Showcase.m in Sources */,
-				CC3102421EFC068F000AEB4C /* NSAttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

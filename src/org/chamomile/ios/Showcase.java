@@ -65,6 +65,6 @@ public final class Showcase {
 		// button.setTransform(CGAffineTransform.makeScale(2, 3));
 		// System.out.println("Transform: " + button.getTransform());
 		
-		System.out.println(">>>>>>>>>>>>"+button.getState());
+		System.out.println(">>>>>>>>>>>>"+view.getSubviews().getCount());
 	}
 }
