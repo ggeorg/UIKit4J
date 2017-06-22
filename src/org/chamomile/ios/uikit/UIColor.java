@@ -15,91 +15,91 @@ public interface UIColor extends NSObject {
 	final class UIViewFactory {
 		static native UIColor withRGBA(double red, double green, double blue, double alpha) /*-[
 		//@formatter:off
-			return [[UIColor alloc] initWithRed:red green:green blue:blue alpha:alpha];
+			return (id<OrgChamomileIosUikitUIColor>) [[UIColor alloc] initWithRed:red green:green blue:blue alpha:alpha];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor blackColor() /*-[
 		//@formatter:off
-			return [UIColor blackColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor blackColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor brownColor() /*-[
 		//@formatter:off
-			return [UIColor brownColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor brownColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor clearColor() /*-[
 		//@formatter:off
-			return [UIColor clearColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor clearColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor cyanColor() /*-[
 		//@formatter:off
-			return [UIColor cyanColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor cyanColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor darkGrayColor() /*-[
 		//@formatter:off
-			return [UIColor darkGrayColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor darkGrayColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor grayColor() /*-[
 		//@formatter:off
-			return [UIColor grayColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor grayColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor greenColor() /*-[
 		//@formatter:off
-			return [UIColor greenColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor greenColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor lightGrayColor() /*-[
 		//@formatter:off
-			return [UIColor lightGrayColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor lightGrayColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor magentaColor() /*-[
 		//@formatter:off
-			return [UIColor magentaColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor magentaColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor orangeColor() /*-[
 		//@formatter:off
-			return [UIColor orangeColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor orangeColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor purpleColor() /*-[
 		//@formatter:off
-			return [UIColor purpleColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor purpleColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor redColor() /*-[
 		//@formatter:off
-			return [UIColor redColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor redColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor whiteColor() /*-[
 		//@formatter:off
-			return [UIColor whiteColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor whiteColor];
 		//@formatter:on
 		]-*/;
 
 		static native UIColor yellowColor() /*-[
 		//@formatter:off
-			return [UIColor yellowColor];
+			return (id<OrgChamomileIosUikitUIColor>) [UIColor yellowColor];
 		//@formatter:on
 		]-*/;
 	}
