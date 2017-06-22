@@ -8,7 +8,6 @@
 #include "org/chamomile/ios/uikit/UIView.h"
 
 @interface UIView (JavaUIView) <OrgChamomileIosUikitUIView>
-
 @end
 
 __attribute__((always_inline)) inline void UIView_init(NSObject *self) {

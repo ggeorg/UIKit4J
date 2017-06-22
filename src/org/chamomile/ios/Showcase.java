@@ -13,6 +13,9 @@ public final class Showcase {
 	}
 
 	public static void addSubview(UIView view, UIButton button) {
+		
+		System.out.println(view.getFrame());
+		
 		view.addSubview(button);
 
 		view.setBackgroundColor(UIColor.withRGB(.5, .5, .5));

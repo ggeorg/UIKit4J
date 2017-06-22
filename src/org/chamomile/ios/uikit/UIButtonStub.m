@@ -1,6 +1,7 @@
 #import "UIButtonStub.h"
 
 #import "J2ObjC_source.h"
+#import "org/chamomile/ios/core/graphics/CGRect.h"
 
 @implementation UIButton (JavaUIButton)
     
@@ -12,12 +13,19 @@
 #pragma clang diagnostic ignored "-Wobjc-multiple-method-names"
     methods[0].selector = @selector(init);
 #pragma clang diagnostic pop
-    static const J2ObjcClassInfo _UIButtonStub = { "UIButton", "org.chamomile.ios.uikit", NULL, methods, NULL, 7, 0x1, 1, 0, -1, -1, -1, -1, -1 };
-    return &_UIButtonStub;
+    static const J2ObjcClassInfo _UIButton = { "UIButton", "org.chamomile.ios.uikit", NULL, methods, NULL, 7, 0x1, 1, 0, -1, -1, -1, -1, -1 };
+    return &_UIButton;
+}
+
+- (OrgChamomileIosCoreGraphicsCGRect *) java_getFrame {
+    return OrgChamomileIosUikitUIView_java_getFrame(self);
+}
+
+- (void)java_setFrame:(OrgChamomileIosCoreGraphicsCGRect *)arg0 {
+	OrgChamomileIosUikitUIView_java_setFrame_(self, arg0);
 }
 
 @end
-
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(UIButton)
 

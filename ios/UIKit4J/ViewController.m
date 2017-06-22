@@ -25,9 +25,6 @@
     
     //[UIButton buttonWithType:UIButtonTypeRoundedRect];
     
-    id<OrgChamomileIosUikitUIView> view = (id<OrgChamomileIosUikitUIView>)self.view;
-    NSLog(@"====>%@", [OrgChamomileIosUikitUIView getFrameWithOrgChamomileIosUikitUIView:view]);
-    
     NSLog(@"=====%f", [self.view alpha]);
     [self.view setAlpha:.5];
           

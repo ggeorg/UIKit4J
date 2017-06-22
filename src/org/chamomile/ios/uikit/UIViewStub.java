@@ -1,5 +1,7 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.core.graphics.CGRect;
+
 import com.google.j2objc.annotations.ObjectiveCName;
 
 @ObjectiveCName("UIView")
@@ -172,8 +174,5 @@ public class UIViewStub implements UIView {
 		// TODO Auto-generated method stub
 		
 	}
-
-	
-
 	
 }

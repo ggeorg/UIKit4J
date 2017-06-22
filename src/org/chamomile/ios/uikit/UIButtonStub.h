@@ -8,7 +8,6 @@
 #include "org/chamomile/ios/uikit/UIButton.h"
 
 @interface UIButton (JavaUIButton) <OrgChamomileIosUikitUIButton>
-
 @end
 
 __attribute__((always_inline)) inline void UIButton_init(NSObject *self) {

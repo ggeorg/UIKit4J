@@ -117,59 +117,57 @@ public interface UIView extends UIResponder {
 	// ---------------------------------------------------------------------
 
 	// ---------------------------------------------------------------------
+	// Configuring the Bounds and Frame Rectangles
+	// ---------------------------------------------------------------------
+
+	@ObjectiveCName("java_getFrame")
+	default CGRect getFrame() {
+		return UIViewFactory.getFrame(this);
+	}
+
+	@ObjectiveCName("java_setFrame:")
+	default void setFrame(CGRect frame) {
+		UIViewFactory.setFrame(this, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+	}
+
+	// ---------------------------------------------------------------------
 	// Managing the View Hierarchy
 	// ---------------------------------------------------------------------
-	
+
 	@ObjectiveCName("superview")
 	UIView getSuperview();
-	
+
 	@ObjectiveCName("subviews")
 	Object getSubviews(); // TODO result
-	
+
 	@ObjectiveCName("window")
 	Object getWindow(); // TODO result
 
 	@ObjectiveCName("addSubview:")
 	void addSubview(UIView view);
-	
+
 	@ObjectiveCName("bringSubviewToFront:")
 	void bringSubviewToFront(UIView view);
-	
+
 	@ObjectiveCName("sendSubviewToBack:")
 	void sendSubviewToBack(UIView view);
-	
+
 	@ObjectiveCName("removeFromSuperview")
 	void removeFromSuperview();
-	
+
 	@ObjectiveCName("insertSubview:atIndex:")
 	void insertSubview(UIView view, int index);
-	
+
 	@ObjectiveCName("insertSubview:aboveSubview:")
 	void insertAboveSubview(UIView view, UIView siblingSubview);
-	
+
 	@ObjectiveCName("insertSubview:belowSubview:")
 	void insertBelowSubview(UIView view, UIView siblingSubview);
-	
+
 	@ObjectiveCName("exchangeSubviewAtIndex:withSubviewAtIndex:")
 	void exchangeSubviews(int index1, int index2);
-	
+
 	@ObjectiveCName("isDescendantOfView:")
 	void isDescendantOfView(UIView view);
 
-	// ---------------------------------------------------------------------
-
-	static CGRect getFrame(UIView view) {
-		return UIViewFactory.getFrame(view);
-	}
-
-	static void setFrame(UIView view, CGRect frame) {
-		final CGPoint o = frame.origin;
-		final CGSize sz = frame.size;
-		UIViewFactory.setFrame(view, o.x, o.y, sz.width, sz.height);
-	}
-
-	@ObjectiveCName("frame")
-	default long getFrame() {
-		return 0L;
-	}
 }

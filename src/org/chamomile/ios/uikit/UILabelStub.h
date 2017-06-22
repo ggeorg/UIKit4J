@@ -8,7 +8,6 @@
 #include "org/chamomile/ios/uikit/UILabel.h"
 
 @interface UILabel (JavaUILabel) <OrgChamomileIosUikitUILabel>
-
 @end
 
 __attribute__((always_inline)) inline void UILabel_init(NSObject *self) {

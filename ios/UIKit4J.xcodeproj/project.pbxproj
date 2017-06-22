@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC31FF321EFBBDAA000AEB4C /* CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF0D1EFBBDAA000AEB4C /* CGPoint.m */; };
+		CC31FF331EFBBDAA000AEB4C /* CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF0F1EFBBDAA000AEB4C /* CGRect.m */; };
+		CC31FF341EFBBDAA000AEB4C /* CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF111EFBBDAA000AEB4C /* CGSize.m */; };
+		CC31FF351EFBBDAA000AEB4C /* NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF141EFBBDAA000AEB4C /* NSAttributedString.m */; };
+		CC31FF361EFBBDAA000AEB4C /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF161EFBBDAA000AEB4C /* NSObject.m */; };
+		CC31FF371EFBBDAA000AEB4C /* Showcase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF181EFBBDAA000AEB4C /* Showcase.m */; };
+		CC31FF381EFBBDAA000AEB4C /* NSLineBreakMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF1B1EFBBDAA000AEB4C /* NSLineBreakMode.m */; };
+		CC31FF391EFBBDAA000AEB4C /* NSTextAlignmentLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF1D1EFBBDAA000AEB4C /* NSTextAlignmentLeft.m */; };
+		CC31FF3A1EFBBDAA000AEB4C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF1F1EFBBDAA000AEB4C /* UIButton.m */; };
+		CC31FF3B1EFBBDAA000AEB4C /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF211EFBBDAA000AEB4C /* UIButtonStub.m */; };
+		CC31FF3C1EFBBDAA000AEB4C /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF231EFBBDAA000AEB4C /* UIColor.m */; };
+		CC31FF3D1EFBBDAA000AEB4C /* UIColorStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF251EFBBDAA000AEB4C /* UIColorStub.m */; };
+		CC31FF3E1EFBBDAA000AEB4C /* UIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF271EFBBDAA000AEB4C /* UIFont.m */; };
+		CC31FF3F1EFBBDAA000AEB4C /* UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF291EFBBDAA000AEB4C /* UILabel.m */; };
+		CC31FF401EFBBDAA000AEB4C /* UILabelStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF2B1EFBBDAA000AEB4C /* UILabelStub.m */; };
+		CC31FF411EFBBDAA000AEB4C /* UIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF2D1EFBBDAA000AEB4C /* UIResponder.m */; };
+		CC31FF421EFBBDAA000AEB4C /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF2F1EFBBDAA000AEB4C /* UIView.m */; };
+		CC31FF431EFBBDAA000AEB4C /* UIViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31FF311EFBBDAA000AEB4C /* UIViewStub.m */; };
 		CC3431ED1EF6888A00C48A8D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3431EC1EF6888A00C48A8D /* libiconv.tbd */; };
-		CC57D14F1EFB899B00D2A56B /* CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1281EFB899B00D2A56B /* CGPoint.m */; };
-		CC57D1501EFB899B00D2A56B /* CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D12A1EFB899B00D2A56B /* CGRect.m */; };
-		CC57D1511EFB899B00D2A56B /* CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D12C1EFB899B00D2A56B /* CGSize.m */; };
-		CC57D1521EFB899B00D2A56B /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D12E1EFB899B00D2A56B /* NSObject.m */; };
-		CC57D1531EFB899B00D2A56B /* NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1311EFB899B00D2A56B /* NSAttributedString.m */; };
-		CC57D1541EFB899B00D2A56B /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1331EFB899B00D2A56B /* NSObject.m */; };
-		CC57D1551EFB899B00D2A56B /* Showcase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1351EFB899B00D2A56B /* Showcase.m */; };
-		CC57D1561EFB899B00D2A56B /* NSLineBreakMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1381EFB899B00D2A56B /* NSLineBreakMode.m */; };
-		CC57D1571EFB899B00D2A56B /* NSTextAlignmentLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D13A1EFB899B00D2A56B /* NSTextAlignmentLeft.m */; };
-		CC57D1581EFB899B00D2A56B /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D13C1EFB899B00D2A56B /* UIButton.m */; };
-		CC57D1591EFB899B00D2A56B /* UIButtonStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D13E1EFB899B00D2A56B /* UIButtonStub.m */; };
-		CC57D15A1EFB899B00D2A56B /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1401EFB899B00D2A56B /* UIColor.m */; };
-		CC57D15B1EFB899B00D2A56B /* UIColorStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1421EFB899B00D2A56B /* UIColorStub.m */; };
-		CC57D15C1EFB899B00D2A56B /* UIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1441EFB899B00D2A56B /* UIFont.m */; };
-		CC57D15D1EFB899B00D2A56B /* UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1461EFB899B00D2A56B /* UILabel.m */; };
-		CC57D15E1EFB899B00D2A56B /* UILabelStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D1481EFB899B00D2A56B /* UILabelStub.m */; };
-		CC57D15F1EFB899B00D2A56B /* UIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D14A1EFB899B00D2A56B /* UIResponder.m */; };
-		CC57D1601EFB899B00D2A56B /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D14C1EFB899B00D2A56B /* UIView.m */; };
-		CC57D1611EFB899B00D2A56B /* UIViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57D14E1EFB899B00D2A56B /* UIViewStub.m */; };
 		CCB521F71EF687E5008AC52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F61EF687E5008AC52F /* main.m */; };
 		CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521F91EF687E5008AC52F /* AppDelegate.m */; };
 		CCB521FD1EF687E5008AC52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB521FC1EF687E5008AC52F /* ViewController.m */; };
@@ -36,45 +35,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC31FF0C1EFBBDAA000AEB4C /* CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPoint.h; sourceTree = "<group>"; };
+		CC31FF0D1EFBBDAA000AEB4C /* CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPoint.m; sourceTree = "<group>"; };
+		CC31FF0E1EFBBDAA000AEB4C /* CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRect.h; sourceTree = "<group>"; };
+		CC31FF0F1EFBBDAA000AEB4C /* CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRect.m; sourceTree = "<group>"; };
+		CC31FF101EFBBDAA000AEB4C /* CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSize.h; sourceTree = "<group>"; };
+		CC31FF111EFBBDAA000AEB4C /* CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSize.m; sourceTree = "<group>"; };
+		CC31FF131EFBBDAA000AEB4C /* NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedString.h; sourceTree = "<group>"; };
+		CC31FF141EFBBDAA000AEB4C /* NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedString.m; sourceTree = "<group>"; };
+		CC31FF151EFBBDAA000AEB4C /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
+		CC31FF161EFBBDAA000AEB4C /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
+		CC31FF171EFBBDAA000AEB4C /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcase.h; sourceTree = "<group>"; };
+		CC31FF181EFBBDAA000AEB4C /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcase.m; sourceTree = "<group>"; };
+		CC31FF1A1EFBBDAA000AEB4C /* NSLineBreakMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLineBreakMode.h; sourceTree = "<group>"; };
+		CC31FF1B1EFBBDAA000AEB4C /* NSLineBreakMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLineBreakMode.m; sourceTree = "<group>"; };
+		CC31FF1C1EFBBDAA000AEB4C /* NSTextAlignmentLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextAlignmentLeft.h; sourceTree = "<group>"; };
+		CC31FF1D1EFBBDAA000AEB4C /* NSTextAlignmentLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextAlignmentLeft.m; sourceTree = "<group>"; };
+		CC31FF1E1EFBBDAA000AEB4C /* UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton.h; sourceTree = "<group>"; };
+		CC31FF1F1EFBBDAA000AEB4C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
+		CC31FF201EFBBDAA000AEB4C /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
+		CC31FF211EFBBDAA000AEB4C /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
+		CC31FF221EFBBDAA000AEB4C /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		CC31FF231EFBBDAA000AEB4C /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
+		CC31FF241EFBBDAA000AEB4C /* UIColorStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorStub.h; sourceTree = "<group>"; };
+		CC31FF251EFBBDAA000AEB4C /* UIColorStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorStub.m; sourceTree = "<group>"; };
+		CC31FF261EFBBDAA000AEB4C /* UIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFont.h; sourceTree = "<group>"; };
+		CC31FF271EFBBDAA000AEB4C /* UIFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFont.m; sourceTree = "<group>"; };
+		CC31FF281EFBBDAA000AEB4C /* UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabel.h; sourceTree = "<group>"; };
+		CC31FF291EFBBDAA000AEB4C /* UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabel.m; sourceTree = "<group>"; };
+		CC31FF2A1EFBBDAA000AEB4C /* UILabelStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelStub.h; sourceTree = "<group>"; };
+		CC31FF2B1EFBBDAA000AEB4C /* UILabelStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelStub.m; sourceTree = "<group>"; };
+		CC31FF2C1EFBBDAA000AEB4C /* UIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResponder.h; sourceTree = "<group>"; };
+		CC31FF2D1EFBBDAA000AEB4C /* UIResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResponder.m; sourceTree = "<group>"; };
+		CC31FF2E1EFBBDAA000AEB4C /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
+		CC31FF2F1EFBBDAA000AEB4C /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
+		CC31FF301EFBBDAA000AEB4C /* UIViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStub.h; sourceTree = "<group>"; };
+		CC31FF311EFBBDAA000AEB4C /* UIViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewStub.m; sourceTree = "<group>"; };
 		CC3431EC1EF6888A00C48A8D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		CC57D1271EFB899B00D2A56B /* CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPoint.h; sourceTree = "<group>"; };
-		CC57D1281EFB899B00D2A56B /* CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPoint.m; sourceTree = "<group>"; };
-		CC57D1291EFB899B00D2A56B /* CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRect.h; sourceTree = "<group>"; };
-		CC57D12A1EFB899B00D2A56B /* CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRect.m; sourceTree = "<group>"; };
-		CC57D12B1EFB899B00D2A56B /* CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSize.h; sourceTree = "<group>"; };
-		CC57D12C1EFB899B00D2A56B /* CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSize.m; sourceTree = "<group>"; };
-		CC57D12D1EFB899B00D2A56B /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
-		CC57D12E1EFB899B00D2A56B /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
-		CC57D1301EFB899B00D2A56B /* NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedString.h; sourceTree = "<group>"; };
-		CC57D1311EFB899B00D2A56B /* NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedString.m; sourceTree = "<group>"; };
-		CC57D1321EFB899B00D2A56B /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
-		CC57D1331EFB899B00D2A56B /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
-		CC57D1341EFB899B00D2A56B /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcase.h; sourceTree = "<group>"; };
-		CC57D1351EFB899B00D2A56B /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcase.m; sourceTree = "<group>"; };
-		CC57D1371EFB899B00D2A56B /* NSLineBreakMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLineBreakMode.h; sourceTree = "<group>"; };
-		CC57D1381EFB899B00D2A56B /* NSLineBreakMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLineBreakMode.m; sourceTree = "<group>"; };
-		CC57D1391EFB899B00D2A56B /* NSTextAlignmentLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextAlignmentLeft.h; sourceTree = "<group>"; };
-		CC57D13A1EFB899B00D2A56B /* NSTextAlignmentLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextAlignmentLeft.m; sourceTree = "<group>"; };
-		CC57D13B1EFB899B00D2A56B /* UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton.h; sourceTree = "<group>"; };
-		CC57D13C1EFB899B00D2A56B /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
-		CC57D13D1EFB899B00D2A56B /* UIButtonStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonStub.h; sourceTree = "<group>"; };
-		CC57D13E1EFB899B00D2A56B /* UIButtonStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonStub.m; sourceTree = "<group>"; };
-		CC57D13F1EFB899B00D2A56B /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
-		CC57D1401EFB899B00D2A56B /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
-		CC57D1411EFB899B00D2A56B /* UIColorStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorStub.h; sourceTree = "<group>"; };
-		CC57D1421EFB899B00D2A56B /* UIColorStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorStub.m; sourceTree = "<group>"; };
-		CC57D1431EFB899B00D2A56B /* UIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFont.h; sourceTree = "<group>"; };
-		CC57D1441EFB899B00D2A56B /* UIFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFont.m; sourceTree = "<group>"; };
-		CC57D1451EFB899B00D2A56B /* UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabel.h; sourceTree = "<group>"; };
-		CC57D1461EFB899B00D2A56B /* UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabel.m; sourceTree = "<group>"; };
-		CC57D1471EFB899B00D2A56B /* UILabelStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelStub.h; sourceTree = "<group>"; };
-		CC57D1481EFB899B00D2A56B /* UILabelStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelStub.m; sourceTree = "<group>"; };
-		CC57D1491EFB899B00D2A56B /* UIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResponder.h; sourceTree = "<group>"; };
-		CC57D14A1EFB899B00D2A56B /* UIResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResponder.m; sourceTree = "<group>"; };
-		CC57D14B1EFB899B00D2A56B /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
-		CC57D14C1EFB899B00D2A56B /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
-		CC57D14D1EFB899B00D2A56B /* UIViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewStub.h; sourceTree = "<group>"; };
-		CC57D14E1EFB899B00D2A56B /* UIViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewStub.m; sourceTree = "<group>"; };
 		CCB521F21EF687E5008AC52F /* UIKit4J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit4J.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB521F61EF687E5008AC52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCB521F81EF687E5008AC52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +96,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC31FF071EFBBDAA000AEB4C /* org */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF081EFBBDAA000AEB4C /* chamomile */,
+			);
+			name = org;
+			path = ../build/objc/org;
+			sourceTree = "<group>";
+		};
+		CC31FF081EFBBDAA000AEB4C /* chamomile */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF091EFBBDAA000AEB4C /* ios */,
+			);
+			path = chamomile;
+			sourceTree = "<group>";
+		};
+		CC31FF091EFBBDAA000AEB4C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF0A1EFBBDAA000AEB4C /* core */,
+				CC31FF121EFBBDAA000AEB4C /* foundation */,
+				CC31FF171EFBBDAA000AEB4C /* Showcase.h */,
+				CC31FF181EFBBDAA000AEB4C /* Showcase.m */,
+				CC31FF191EFBBDAA000AEB4C /* uikit */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CC31FF0A1EFBBDAA000AEB4C /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF0B1EFBBDAA000AEB4C /* graphics */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CC31FF0B1EFBBDAA000AEB4C /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF0C1EFBBDAA000AEB4C /* CGPoint.h */,
+				CC31FF0D1EFBBDAA000AEB4C /* CGPoint.m */,
+				CC31FF0E1EFBBDAA000AEB4C /* CGRect.h */,
+				CC31FF0F1EFBBDAA000AEB4C /* CGRect.m */,
+				CC31FF101EFBBDAA000AEB4C /* CGSize.h */,
+				CC31FF111EFBBDAA000AEB4C /* CGSize.m */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		CC31FF121EFBBDAA000AEB4C /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF131EFBBDAA000AEB4C /* NSAttributedString.h */,
+				CC31FF141EFBBDAA000AEB4C /* NSAttributedString.m */,
+				CC31FF151EFBBDAA000AEB4C /* NSObject.h */,
+				CC31FF161EFBBDAA000AEB4C /* NSObject.m */,
+			);
+			path = foundation;
+			sourceTree = "<group>";
+		};
+		CC31FF191EFBBDAA000AEB4C /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				CC31FF1A1EFBBDAA000AEB4C /* NSLineBreakMode.h */,
+				CC31FF1B1EFBBDAA000AEB4C /* NSLineBreakMode.m */,
+				CC31FF1C1EFBBDAA000AEB4C /* NSTextAlignmentLeft.h */,
+				CC31FF1D1EFBBDAA000AEB4C /* NSTextAlignmentLeft.m */,
+				CC31FF1E1EFBBDAA000AEB4C /* UIButton.h */,
+				CC31FF1F1EFBBDAA000AEB4C /* UIButton.m */,
+				CC31FF201EFBBDAA000AEB4C /* UIButtonStub.h */,
+				CC31FF211EFBBDAA000AEB4C /* UIButtonStub.m */,
+				CC31FF221EFBBDAA000AEB4C /* UIColor.h */,
+				CC31FF231EFBBDAA000AEB4C /* UIColor.m */,
+				CC31FF241EFBBDAA000AEB4C /* UIColorStub.h */,
+				CC31FF251EFBBDAA000AEB4C /* UIColorStub.m */,
+				CC31FF261EFBBDAA000AEB4C /* UIFont.h */,
+				CC31FF271EFBBDAA000AEB4C /* UIFont.m */,
+				CC31FF281EFBBDAA000AEB4C /* UILabel.h */,
+				CC31FF291EFBBDAA000AEB4C /* UILabel.m */,
+				CC31FF2A1EFBBDAA000AEB4C /* UILabelStub.h */,
+				CC31FF2B1EFBBDAA000AEB4C /* UILabelStub.m */,
+				CC31FF2C1EFBBDAA000AEB4C /* UIResponder.h */,
+				CC31FF2D1EFBBDAA000AEB4C /* UIResponder.m */,
+				CC31FF2E1EFBBDAA000AEB4C /* UIView.h */,
+				CC31FF2F1EFBBDAA000AEB4C /* UIView.m */,
+				CC31FF301EFBBDAA000AEB4C /* UIViewStub.h */,
+				CC31FF311EFBBDAA000AEB4C /* UIViewStub.m */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
 		CC3431EB1EF6888A00C48A8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,103 +199,9 @@
 		CC3431EF1EF68D6900C48A8D /* java */ = {
 			isa = PBXGroup;
 			children = (
-				CC57D1221EFB899B00D2A56B /* org */,
+				CC31FF071EFBBDAA000AEB4C /* org */,
 			);
 			name = java;
-			sourceTree = "<group>";
-		};
-		CC57D1221EFB899B00D2A56B /* org */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1231EFB899B00D2A56B /* chamomile */,
-			);
-			name = org;
-			path = ../build/objc/org;
-			sourceTree = "<group>";
-		};
-		CC57D1231EFB899B00D2A56B /* chamomile */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1241EFB899B00D2A56B /* ios */,
-			);
-			path = chamomile;
-			sourceTree = "<group>";
-		};
-		CC57D1241EFB899B00D2A56B /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1251EFB899B00D2A56B /* core */,
-				CC57D12F1EFB899B00D2A56B /* foundation */,
-				CC57D1341EFB899B00D2A56B /* Showcase.h */,
-				CC57D1351EFB899B00D2A56B /* Showcase.m */,
-				CC57D1361EFB899B00D2A56B /* uikit */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		CC57D1251EFB899B00D2A56B /* core */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1261EFB899B00D2A56B /* graphics */,
-				CC57D12D1EFB899B00D2A56B /* NSObject.h */,
-				CC57D12E1EFB899B00D2A56B /* NSObject.m */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		CC57D1261EFB899B00D2A56B /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1271EFB899B00D2A56B /* CGPoint.h */,
-				CC57D1281EFB899B00D2A56B /* CGPoint.m */,
-				CC57D1291EFB899B00D2A56B /* CGRect.h */,
-				CC57D12A1EFB899B00D2A56B /* CGRect.m */,
-				CC57D12B1EFB899B00D2A56B /* CGSize.h */,
-				CC57D12C1EFB899B00D2A56B /* CGSize.m */,
-			);
-			path = graphics;
-			sourceTree = "<group>";
-		};
-		CC57D12F1EFB899B00D2A56B /* foundation */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1301EFB899B00D2A56B /* NSAttributedString.h */,
-				CC57D1311EFB899B00D2A56B /* NSAttributedString.m */,
-				CC57D1321EFB899B00D2A56B /* NSObject.h */,
-				CC57D1331EFB899B00D2A56B /* NSObject.m */,
-			);
-			path = foundation;
-			sourceTree = "<group>";
-		};
-		CC57D1361EFB899B00D2A56B /* uikit */ = {
-			isa = PBXGroup;
-			children = (
-				CC57D1371EFB899B00D2A56B /* NSLineBreakMode.h */,
-				CC57D1381EFB899B00D2A56B /* NSLineBreakMode.m */,
-				CC57D1391EFB899B00D2A56B /* NSTextAlignmentLeft.h */,
-				CC57D13A1EFB899B00D2A56B /* NSTextAlignmentLeft.m */,
-				CC57D13B1EFB899B00D2A56B /* UIButton.h */,
-				CC57D13C1EFB899B00D2A56B /* UIButton.m */,
-				CC57D13D1EFB899B00D2A56B /* UIButtonStub.h */,
-				CC57D13E1EFB899B00D2A56B /* UIButtonStub.m */,
-				CC57D13F1EFB899B00D2A56B /* UIColor.h */,
-				CC57D1401EFB899B00D2A56B /* UIColor.m */,
-				CC57D1411EFB899B00D2A56B /* UIColorStub.h */,
-				CC57D1421EFB899B00D2A56B /* UIColorStub.m */,
-				CC57D1431EFB899B00D2A56B /* UIFont.h */,
-				CC57D1441EFB899B00D2A56B /* UIFont.m */,
-				CC57D1451EFB899B00D2A56B /* UILabel.h */,
-				CC57D1461EFB899B00D2A56B /* UILabel.m */,
-				CC57D1471EFB899B00D2A56B /* UILabelStub.h */,
-				CC57D1481EFB899B00D2A56B /* UILabelStub.m */,
-				CC57D1491EFB899B00D2A56B /* UIResponder.h */,
-				CC57D14A1EFB899B00D2A56B /* UIResponder.m */,
-				CC57D14B1EFB899B00D2A56B /* UIView.h */,
-				CC57D14C1EFB899B00D2A56B /* UIView.m */,
-				CC57D14D1EFB899B00D2A56B /* UIViewStub.h */,
-				CC57D14E1EFB899B00D2A56B /* UIViewStub.m */,
-			);
-			path = uikit;
 			sourceTree = "<group>";
 		};
 		CCB521E91EF687E5008AC52F = {
@@ -323,28 +318,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC57D14F1EFB899B00D2A56B /* CGPoint.m in Sources */,
+				CC31FF351EFBBDAA000AEB4C /* NSAttributedString.m in Sources */,
+				CC31FF321EFBBDAA000AEB4C /* CGPoint.m in Sources */,
 				CCB521FD1EF687E5008AC52F /* ViewController.m in Sources */,
-				CC57D15D1EFB899B00D2A56B /* UILabel.m in Sources */,
-				CC57D1511EFB899B00D2A56B /* CGSize.m in Sources */,
-				CC57D1611EFB899B00D2A56B /* UIViewStub.m in Sources */,
-				CC57D15F1EFB899B00D2A56B /* UIResponder.m in Sources */,
-				CC57D15B1EFB899B00D2A56B /* UIColorStub.m in Sources */,
-				CC57D1541EFB899B00D2A56B /* NSObject.m in Sources */,
+				CC31FF3A1EFBBDAA000AEB4C /* UIButton.m in Sources */,
+				CC31FF421EFBBDAA000AEB4C /* UIView.m in Sources */,
+				CC31FF431EFBBDAA000AEB4C /* UIViewStub.m in Sources */,
+				CC31FF401EFBBDAA000AEB4C /* UILabelStub.m in Sources */,
+				CC31FF341EFBBDAA000AEB4C /* CGSize.m in Sources */,
+				CC31FF3C1EFBBDAA000AEB4C /* UIColor.m in Sources */,
+				CC31FF371EFBBDAA000AEB4C /* Showcase.m in Sources */,
+				CC31FF411EFBBDAA000AEB4C /* UIResponder.m in Sources */,
+				CC31FF391EFBBDAA000AEB4C /* NSTextAlignmentLeft.m in Sources */,
+				CC31FF3E1EFBBDAA000AEB4C /* UIFont.m in Sources */,
+				CC31FF3F1EFBBDAA000AEB4C /* UILabel.m in Sources */,
 				CCB521FA1EF687E5008AC52F /* AppDelegate.m in Sources */,
-				CC57D1591EFB899B00D2A56B /* UIButtonStub.m in Sources */,
-				CC57D1501EFB899B00D2A56B /* CGRect.m in Sources */,
+				CC31FF3B1EFBBDAA000AEB4C /* UIButtonStub.m in Sources */,
+				CC31FF361EFBBDAA000AEB4C /* NSObject.m in Sources */,
+				CC31FF381EFBBDAA000AEB4C /* NSLineBreakMode.m in Sources */,
+				CC31FF331EFBBDAA000AEB4C /* CGRect.m in Sources */,
+				CC31FF3D1EFBBDAA000AEB4C /* UIColorStub.m in Sources */,
 				CCB521F71EF687E5008AC52F /* main.m in Sources */,
-				CC57D1601EFB899B00D2A56B /* UIView.m in Sources */,
-				CC57D15A1EFB899B00D2A56B /* UIColor.m in Sources */,
-				CC57D1521EFB899B00D2A56B /* NSObject.m in Sources */,
-				CC57D1571EFB899B00D2A56B /* NSTextAlignmentLeft.m in Sources */,
-				CC57D15C1EFB899B00D2A56B /* UIFont.m in Sources */,
-				CC57D1581EFB899B00D2A56B /* UIButton.m in Sources */,
-				CC57D1561EFB899B00D2A56B /* NSLineBreakMode.m in Sources */,
-				CC57D15E1EFB899B00D2A56B /* UILabelStub.m in Sources */,
-				CC57D1551EFB899B00D2A56B /* Showcase.m in Sources */,
-				CC57D1531EFB899B00D2A56B /* NSAttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
