@@ -4,6 +4,10 @@ import org.chamomile.ios.foundation.NSAttributedString;
 
 import com.google.j2objc.annotations.ObjectiveCName;
 
+/*-[
+#import "UIKit4J_common.h"
+ ]-*/
+
 /**
  * A view that displays one or more lines of read-only text, often used in
  * conjunction with controls to describe their intended purpose.

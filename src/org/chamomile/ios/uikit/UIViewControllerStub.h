@@ -1,7 +1,7 @@
 #ifndef _OrgChamomileIosUikitUIViewControllerStub_H_
 #define _OrgChamomileIosUikitUIViewControllerStub_H_
 
-#import <UIKit/UIKit.h>
+#include <UIKit/UIKit.h>
 
 #include "J2ObjC_common.h"
 #include "UIKit4J_common.h"

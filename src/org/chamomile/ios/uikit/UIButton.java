@@ -3,14 +3,14 @@ package org.chamomile.ios.uikit;
 import com.google.j2objc.annotations.ObjectiveCName;
 
 /*-[
-#import <UIKit/UIKit.h>
+#import "UIKit4J_common.h"
  ]-*/
 
 public interface UIButton extends UIControl, UIButtonType {
 	class UIButtonFactory {
 		static native UIButton buttonWithType(int buttonType) /*-[
 		//@formatter:off
-			return (id<OrgChamomileIosUikitUIButton>) [UIButton buttonWithType:buttonType];
+			return [UIButton buttonWithType:buttonType];
 		//@formatter:on
 		]-*/;
 	}

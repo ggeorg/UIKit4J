@@ -1,12 +1,12 @@
 #ifndef _OrgChamomileIosUikitUIViewStub_H_
 #define _OrgChamomileIosUikitUIViewStub_H_
 
-#import <UIKit/UIKit.h>
+#include <UIKit/UIKit.h>
 
 #include "J2ObjC_common.h"
 #include "UIKit4J_common.h"
 
-#include "org/chamomile/ios/uikit/UIView.h"
+#include "UIView.h"
 
 @interface UIView (JavaUIView) <OrgChamomileIosUikitUIView>
 @end

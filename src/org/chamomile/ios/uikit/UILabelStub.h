@@ -1,11 +1,12 @@
 #ifndef _OrgChamomileIosUikitUILabelStub_H_
 #define _OrgChamomileIosUikitUILabelStub_H_
 
-#import <UIKit/UIKit.h>
+#include <UIKit/UIKit.h>
 
 #include "J2ObjC_common.h"
+#include "UIKit4J_common.h"
 
-#include "org/chamomile/ios/uikit/UILabel.h"
+#include "UILabel.h"
 
 @interface UILabel (JavaUILabel) <OrgChamomileIosUikitUILabel>
 @end

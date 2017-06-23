@@ -3,7 +3,7 @@ package org.chamomile.ios.uikit;
 import com.google.j2objc.annotations.ObjectiveCName;
 
 /*-[
-#import <UIKit/UIKit.h>
+#import "UIKit4J_common.h"
  ]-*/
 
 /**

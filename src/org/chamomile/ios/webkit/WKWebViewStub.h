@@ -1,7 +1,7 @@
 #ifndef _OrgChamomileIosWebkitWKWebViewStub_H_
 #define _OrgChamomileIosWebkitWKWebViewStub_H_
 
-#import <WebKit/WebKit.h>
+#include <WebKit/WebKit.h>
 
 #include "J2ObjC_common.h"
 #include "UIKit4J_common.h"
