@@ -20,6 +20,7 @@ import com.google.j2objc.annotations.ObjectiveCName;
  * 
  * @author ggeorg
  */
+@SuppressWarnings("unused")
 public interface WKNavigationDelegate {
 
 	// ---------------------------------------------------------------------
@@ -119,8 +120,10 @@ public interface WKNavigationDelegate {
 		decidePolicyForNavigationAction(webView, navigationAction, consumer);
 	}
 
-	void decidePolicyForNavigationAction(WKWebView webView, WKNavigationAction navigationAction,
-			Consumer<Integer> decisionHandler);
+	default void decidePolicyForNavigationAction(WKWebView webView, WKNavigationAction navigationAction,
+			Consumer<Integer> decisionHandler) {
+		decisionHandler.accept(WKNavigationActionPolicyAllow);
+	}
 
 	/**
 	 * Decides whether to allow or cancel a navigation after its response is
