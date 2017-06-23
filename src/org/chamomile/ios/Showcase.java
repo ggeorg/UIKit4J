@@ -1,23 +1,21 @@
 package org.chamomile.ios;
 
+import static org.chamomile.ios.foundation.NSURL.URLWithString;
+import static org.chamomile.ios.foundation.NSURLRequest.requestWithURL;
+
 import org.chamomile.ios.uikit.UIViewControllerStub;
+import org.chamomile.ios.webkit.WKWebView;
 
 public final class Showcase extends UIViewControllerStub {
-	
-	public Showcase() {
-		super();
-	}
-	
+
 	@Override
 	public void viewDidLoad() {
 		super.viewDidLoad();
-		
-		System.out.println("I love God!");
-	}
 
-	@Override
-	public void didReceiveMemoryWarning() {
-		// TODO Auto-generated method stub
-		
+		WKWebView webView = WKWebView.webView();
+		//getView().addSubview(webView);
+		setView(webView);
+
+		webView.loadRequest(requestWithURL(URLWithString("http://www.google.com")));
 	}
 }

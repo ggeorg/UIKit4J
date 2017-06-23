@@ -283,11 +283,11 @@ public class UIViewStub implements UIView {
 		
 	}
 
-	@Override
-	public boolean requiresConstraintBasedLayout() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+//	@Override
+//	public boolean requiresConstraintBasedLayout() {
+//		// TODO Auto-generated method stub
+//		return false;
+//	}
 
 	@Override
 	public boolean translatesAutoresizingMaskIntoConstraints() {

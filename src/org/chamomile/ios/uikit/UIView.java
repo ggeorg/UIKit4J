@@ -9,7 +9,7 @@ import org.chamomile.ios.foundation.NSArray;
 import com.google.j2objc.annotations.ObjectiveCName;
 
 /*-[
-#import <UIKit/UIKit.h>
+#import "UIKit4J_common.h"
  ]-*/
 
 /**
@@ -22,8 +22,7 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 	final class UIViewFactory {
 		static native UIView viewWithRect(double x, double y, double width, double height) /*-[
 		//@formatter:off
-			return (id<OrgChamomileIosUikitUIView>) [(UIView *)[OrgChamomileIosUikitUIView alloc] 
-				initWithFrame:CGRectMake(x, y, width, height)];
+			return [(UIView *)[OrgChamomileIosUikitUIView alloc] initWithFrame:CGRectMake(x, y, width, height)];
 		//@formatter:on
 		]-*/;
 
@@ -317,8 +316,8 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 	@ObjectiveCName("layoutIfNeeded")
 	void layoutIfNeeded();
 
-	@ObjectiveCName("requiresConstraintBasedLayout")
-	boolean requiresConstraintBasedLayout(); // TODO
+//	@ObjectiveCName("requiresConstraintBasedLayout")
+//	boolean requiresConstraintBasedLayout(); // TODO
 
 	@ObjectiveCName("translatesAutoresizingMaskIntoConstraints")
 	boolean translatesAutoresizingMaskIntoConstraints();

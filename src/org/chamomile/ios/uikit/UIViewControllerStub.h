@@ -4,6 +4,7 @@
 #import <UIKit/UIKit.h>
 
 #include "J2ObjC_common.h"
+#include "UIKit4J_common.h"
 
 #include "UIViewController.h"
 
