@@ -24,8 +24,8 @@ public interface WKUIDelegate {
 	 * Called when the web view begins to receive web content.
 	 */
 	@ObjectiveCName("webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:")
-	void createWebViewn(WKWebView webView, WKWebViewConfiguration configuration, WKNavigation navigation,
-			WKNavigationAction navigationAction, WKWindowFeatures windowFeatures);
+	void createWebView(WKWebView webView, WKWebViewConfiguration configuration, WKNavigationAction navigationAction,
+			WKWindowFeatures windowFeatures);
 
 	// ---------------------------------------------------------------------
 	// Displaying UI Panels
@@ -120,7 +120,7 @@ public interface WKUIDelegate {
 	 * Notifies your app that the DOM window closed successfully.
 	 */
 	@ObjectiveCName("webViewDidClose:")
-	void webViewDidClose(WKWebView webView);
+	void didClose(WKWebView webView);
 
 	// ---------------------------------------------------------------------
 	// Displaying the Upload Panel
