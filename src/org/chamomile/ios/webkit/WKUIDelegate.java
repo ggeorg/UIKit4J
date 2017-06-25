@@ -47,7 +47,7 @@ public interface WKUIDelegate {
 
 			private native void _accept(Object completionHandler) /*-[
 			//@formatter:off
-				((void (^)(void))decisionHandler)(t);
+				((void (^)(void))completionHandler)();
 			//@formatter:on
 			]-*/;
 		};
@@ -74,7 +74,7 @@ public interface WKUIDelegate {
 
 			private native void accept(Object completionHandler, Boolean t) /*-[
 			//@formatter:off
-				((void (^)(void))decisionHandler)(t);
+				((void (^)(BOOL result))completionHandler)(t);
 			//@formatter:on
 			]-*/;
 		};
@@ -101,7 +101,7 @@ public interface WKUIDelegate {
 
 			private native void accept(Object completionHandler, String t) /*-[
 			//@formatter:off
-				((void (^)(void))decisionHandler)(t);
+				((void (^)(NSString *result))completionHandler)(t);
 			//@formatter:on
 			]-*/;
 		};
@@ -142,7 +142,7 @@ public interface WKUIDelegate {
 
 			private native void accept(Object completionHandler, NSArray<NSURL> t) /*-[
 			//@formatter:off
-				((void (^)(void))decisionHandler)(t);
+				((void (^)(NSArray<NSURL *> *URLs))completionHandler)(t);
 			//@formatter:on
 			]-*/;
 		};

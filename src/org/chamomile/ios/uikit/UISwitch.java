@@ -15,7 +15,13 @@ import com.google.j2objc.annotations.ObjectiveCName;
  */
 public interface UISwitch extends UIControl {
 	final class UISwitchFactory {
-		static native UISwitch initWithFrame(double x, double y, double width, double height) /*-[
+		static native UISwitch create() /*-[
+		//@formatter:off
+			return [[UISwitch alloc] init];
+		//@formatter:on
+		]-*/;
+
+		static native UISwitch createWithFrame(double x, double y, double width, double height) /*-[
 		//@formatter:off
 			return [[UISwitch alloc] initWithFrame:CGRectMake((CGFloat)x, (CGFloat)y, (CGFloat)width, (CGFloat)height)];
 		//@formatter:on
@@ -26,12 +32,16 @@ public interface UISwitch extends UIControl {
 	// Initializing the Switch Object
 	// ---------------------------------------------------------------------
 
+	static UISwitch create() {
+		return UISwitchFactory.create();
+	}
+
 	static UISwitch createWithFrame(CGRect frame) {
-		return UISwitchFactory.initWithFrame(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+		return UISwitchFactory.createWithFrame(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
 	}
 
 	static UISwitch createWithFrame(double x, double y, double width, double height) {
-		return UISwitchFactory.initWithFrame(x, y, width, height);
+		return UISwitchFactory.createWithFrame(x, y, width, height);
 	}
 
 	// TODO initWithCoder:

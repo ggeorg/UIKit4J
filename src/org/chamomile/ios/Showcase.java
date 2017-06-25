@@ -5,18 +5,18 @@ import static org.chamomile.ios.foundation.NSURLRequest.requestWithURL;
 import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleHeight;
 import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleWidth;
 import static org.chamomile.ios.webkit.WKNavigationActionPolicy.WKNavigationActionPolicyAllow;
-import static org.chamomile.ios.webkit.WKNavigationResponsePolicy.WKNavigationResponsePolicyAllow;
 
 import java.util.function.Consumer;
 
 import org.chamomile.ios.foundation.NSError;
+import org.chamomile.ios.uikit.UISlider;
+import org.chamomile.ios.uikit.UISwitch;
 import org.chamomile.ios.uikit.UIViewController;
 import org.chamomile.ios.uikit.UIViewControllerStub;
 import org.chamomile.ios.webkit.NSURLAuthenticationChallenge;
 import org.chamomile.ios.webkit.WKNavigation;
 import org.chamomile.ios.webkit.WKNavigationAction;
 import org.chamomile.ios.webkit.WKNavigationDelegate;
-import org.chamomile.ios.webkit.WKNavigationResponse;
 import org.chamomile.ios.webkit.WKWebView;
 
 public final class Showcase extends UIViewControllerStub
@@ -34,6 +34,9 @@ public final class Showcase extends UIViewControllerStub
 		webView.setAutoresizingMask(UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
 
 		webView.loadRequest(requestWithURL(URLWithString("http://www.google.com")));
+		
+		getView().addSubview(UISwitch.createWithFrame(0, 20, 0, 0));
+		getView().addSubview(UISlider.createWithFrame(0, 60, 200, 20));
 	}
 
 	@Override
