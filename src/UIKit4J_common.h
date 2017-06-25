@@ -2,6 +2,7 @@
 #include "org/chamomile/ios/uikit/UIButtonStub.h"
 #include "org/chamomile/ios/uikit/UIColorStub.h"
 #include "org/chamomile/ios/uikit/UIControlStub.h"
+#include "org/chamomile/ios/uikit/UIDatePickerStub.h"
 #include "org/chamomile/ios/uikit/UIImageViewStub.h"
 #include "org/chamomile/ios/uikit/UILabelStub.h"
 #include "org/chamomile/ios/uikit/UILabelStub.h"
