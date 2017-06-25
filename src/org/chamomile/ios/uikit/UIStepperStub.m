@@ -18,6 +18,7 @@
 }
 
 #include "UIViewStubImpl.h"
+#include "UIControlStubImpl.h"
 
 @end
 

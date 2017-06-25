@@ -15,6 +15,8 @@
 #include "org/chamomile/ios/uikit/UIStackViewStub.h"
 #include "org/chamomile/ios/uikit/UIStepperStub.h"
 #include "org/chamomile/ios/uikit/UISwitchStub.h"
+#include "org/chamomile/ios/uikit/UITextFieldStub.h"
+#include "org/chamomile/ios/uikit/UITextViewStub.h"
 #include "org/chamomile/ios/uikit/UIViewControllerStub.h"
 #include "org/chamomile/ios/uikit/UIViewStub.h"
 
