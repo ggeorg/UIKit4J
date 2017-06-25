@@ -7,6 +7,8 @@
 #include "org/chamomile/ios/uikit/UILabelStub.h"
 #include "org/chamomile/ios/uikit/UILabelStub.h"
 #include "org/chamomile/ios/uikit/UIScrollViewStub.h"
+#include "org/chamomile/ios/uikit/UISegmentedControlStub.h"
+#include "org/chamomile/ios/uikit/UIPageControlStub.h"
 #include "org/chamomile/ios/uikit/UIPickerViewStub.h"
 #include "org/chamomile/ios/uikit/UIProgressViewStub.h"
 #include "org/chamomile/ios/uikit/UISliderStub.h"
