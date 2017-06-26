@@ -50,13 +50,49 @@ public interface UIWindow extends UIView {
 	// ---------------------------------------------------------------------
 	// Configuring the Window
 	// ---------------------------------------------------------------------
-	
+
 	@ObjectiveCName("rootViewController")
 	UIViewController getRootViewController();
 
 	@ObjectiveCName("setRootViewController:")
 	void setRootViewController(UIViewController viewController);
 
+	@ObjectiveCName("windowLevel")
+	/* UIWindowLevel */double getWindowLevel(); // TODO CFloat
+
+	@ObjectiveCName("setWindowLevel:")
+	void setWindowLevel(/* UIWindowLevel */double windowLevel); // TODO CFloat
+
+	@ObjectiveCName("screen")
+	UIScreen getScreen();
+
+	@ObjectiveCName("setScreen:")
+	void setScreen(UIScreen screen);
+
+	// ---------------------------------------------------------------------
+	// Making Windows Key
+	// ---------------------------------------------------------------------
+
+	@ObjectiveCName("isKeyWindow")
+	boolean isKeyWindow();
+
 	@ObjectiveCName("makeKeyAndVisible")
 	void makeKeyAndVisible();
+
+	@ObjectiveCName("makeKeyWindow")
+	void makeKeyWindow();
+
+	@ObjectiveCName("becomeKeyWindow")
+	void becomeKeyWindow();
+
+	@ObjectiveCName("resignKeyWindow")
+	void resignKeyWindow();
+
+	// ---------------------------------------------------------------------
+	// Converting Coordinates
+	// ---------------------------------------------------------------------
+
+	// ---------------------------------------------------------------------
+	// Sending Events
+	// ---------------------------------------------------------------------
 }
