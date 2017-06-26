@@ -2,6 +2,10 @@ package org.chamomile.ios.uikit;
 
 import org.chamomile.ios.foundation.NSObject;
 
+/*-[
+#import "UIKit4J_common.h"
+ ]-*/
+
 /**
  * An abstract interface for responding to and handling events.
  * 

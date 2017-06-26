@@ -1,3 +1,5 @@
+#include "UIResponderStubImpl.h"
+
 - (OrgChamomileIosCoreGraphicsCGRect *) java_getFrame {
     return OrgChamomileIosUikitUIView_java_getFrame(self);
 }

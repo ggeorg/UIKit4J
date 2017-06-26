@@ -6,6 +6,7 @@
 #include "org/chamomile/ios/uikit/UIImageViewStub.h"
 #include "org/chamomile/ios/uikit/UILabelStub.h"
 #include "org/chamomile/ios/uikit/UILabelStub.h"
+#include "org/chamomile/ios/uikit/UIScreenStub.h"
 #include "org/chamomile/ios/uikit/UIScrollViewStub.h"
 #include "org/chamomile/ios/uikit/UISegmentedControlStub.h"
 #include "org/chamomile/ios/uikit/UIPageControlStub.h"
@@ -19,5 +20,6 @@
 #include "org/chamomile/ios/uikit/UITextViewStub.h"
 #include "org/chamomile/ios/uikit/UIViewControllerStub.h"
 #include "org/chamomile/ios/uikit/UIViewStub.h"
+#include "org/chamomile/ios/uikit/UIWindowStub.h"
 
 #include "org/chamomile/ios/webkit/WKWebViewStub.h"
