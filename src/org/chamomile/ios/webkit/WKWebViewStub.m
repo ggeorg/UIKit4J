@@ -5,12 +5,14 @@
 
 @implementation WKWebView (JavaWKWebView)
 
+/*
 J2OBJC_IGNORE_DESIGNATED_BEGIN
 - (instancetype)init {
   WKWebView_init(self);
   return self;
 }
 J2OBJC_IGNORE_DESIGNATED_END
+*/
 
 - (instancetype)initWithOrgChamomileIosWebkitWKWebViewConfiguration:(id<OrgChamomileIosWebkitWKWebViewConfiguration>)configuration {
   WKWebView_initWithOrgChamomileIosWebkitWKWebViewConfiguration_(self, configuration);
