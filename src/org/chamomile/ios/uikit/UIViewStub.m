@@ -4,11 +4,28 @@
 
 @implementation UIView (JavaUIView)
 
-- (void)setFrameWithDouble:(jdouble)x
-                withDouble:(jdouble)y
-                withDouble:(jdouble)width
-                withDouble:(jdouble)height {
-  OrgChamomileIosUikitUIView_setFrameWithDouble_withDouble_withDouble_withDouble_(self, x, y, width, height);
+J2OBJC_IGNORE_DESIGNATED_BEGIN
+
+- (instancetype)initWithOrgChamomileIosCoreGraphicsCGRect:(OrgChamomileIosCoreGraphicsCGRect *)frame {
+  UIView_initWithOrgChamomileIosCoreGraphicsCGRect_(self, frame);
+  return self;
+}
+
+- (instancetype)initWithDouble:(jdouble)x
+                    withDouble:(jdouble)y
+                    withDouble:(jdouble)width
+                    withDouble:(jdouble)height {
+  UIView_initWithDouble_withDouble_withDouble_withDouble_(self, x, y, width, height);
+  return self;
+}
+
+J2OBJC_IGNORE_DESIGNATED_END
+
+- (void)setFrameWithDouble:(jdouble)arg0
+                withDouble:(jdouble)arg1
+                withDouble:(jdouble)arg2
+                withDouble:(jdouble)arg3 {
+  OrgChamomileIosUikitUIView_setFrameWithDouble_withDouble_withDouble_withDouble_(self, arg0, arg1, arg2, arg3);
 }
     
 + (const J2ObjcClassInfo *)__metadata {

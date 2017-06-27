@@ -13,7 +13,7 @@ public class UIViewStub implements UIView {
 	}
 	
 	public UIViewStub(CGRect frame) {
-		this(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+		setFrame(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
 	}
 	
 	public UIViewStub(double x, double y, double width, double height) {
