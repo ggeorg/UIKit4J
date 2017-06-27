@@ -23,7 +23,7 @@ public interface WKWebView extends UIView {
 	final class WKWebViewFactory {
 		static native WKWebView webView() /*-[
 		//@formatter:off
-			return [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+			return [[WKWebView alloc] init];
 		//@formatter:on
 		]-*/;
 
