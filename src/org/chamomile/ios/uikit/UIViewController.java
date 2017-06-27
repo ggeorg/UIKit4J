@@ -17,7 +17,7 @@ public interface UIViewController extends UIResponder {
 	}
 
 	// ---------------------------------------------------------------------
-	// Configuring a View Controller Using Nib Files
+	// Creating a View Controller Programmatically
 	// ---------------------------------------------------------------------
 
 	// ---------------------------------------------------------------------

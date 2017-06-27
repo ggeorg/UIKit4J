@@ -10,8 +10,6 @@
 
 @interface WKWebView (JavaWKWebView) <OrgChamomileIosWebkitWKWebView>
 
-- (instancetype)init;
-
 - (instancetype)initWithOrgChamomileIosWebkitWKWebViewConfiguration:(id<OrgChamomileIosWebkitWKWebViewConfiguration>)configuration;
 
 @end

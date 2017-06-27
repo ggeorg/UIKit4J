@@ -9,10 +9,13 @@ import static org.chamomile.ios.webkit.WKNavigationActionPolicy.WKNavigationActi
 import java.util.function.Consumer;
 
 import org.chamomile.ios.foundation.NSError;
+import org.chamomile.ios.uikit.UIColor;
 import org.chamomile.ios.uikit.UISlider;
 import org.chamomile.ios.uikit.UISwitch;
+import org.chamomile.ios.uikit.UIView;
 import org.chamomile.ios.uikit.UIViewController;
 import org.chamomile.ios.uikit.UIViewControllerStub;
+import org.chamomile.ios.uikit.UIViewStub;
 import org.chamomile.ios.webkit.NSURLAuthenticationChallenge;
 import org.chamomile.ios.webkit.WKNavigation;
 import org.chamomile.ios.webkit.WKNavigationAction;
@@ -27,6 +30,7 @@ public final class WKWebViewDemo extends UIViewControllerStub
 	public void viewDidLoad() {
 		super.viewDidLoad();
 
+		//WKWebView webView = new MyWebView();
 		WKWebView webView = new WKWebViewStub();
 		
 		getView().addSubview(webView);
@@ -37,8 +41,14 @@ public final class WKWebViewDemo extends UIViewControllerStub
 
 		webView.loadRequest(requestWithURL(URLWithString("http://www.google.com")));
 		
-		getView().addSubview(UISwitch.createWithFrame(0, 20, 0, 0));
-		getView().addSubview(UISlider.createWithFrame(0, 60, 200, 20));
+		UIView view = UIView.createWithFrame(20, 20, 100, 100);
+		view.setBackgroundColor(UIColor.cyanColor());
+		getView().addSubview(view);
+		
+		view = new UIViewStub(0, 0, 150, 100);
+		view.setBackgroundColor(UIColor.redColor());
+		//view.setFrame(0, 0, 100, 100);
+		getView().addSubview(view);
 	}
 
 	@Override

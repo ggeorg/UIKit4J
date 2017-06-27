@@ -1,7 +1,6 @@
 #import "WKWebViewStub.h"
 
 #import "J2ObjC_source.h"
-#import "../core/graphics/CGRect.h"
 
 @implementation WKWebView (JavaWKWebView)
 
