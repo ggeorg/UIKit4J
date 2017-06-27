@@ -31,7 +31,7 @@
   methods[9].selector = @selector(setTitle:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "getView", "setView", "LOrgChamomileIosUikitUIView;", "getViewIfLoaded", "getTitle", "setTitle", "LNSString;" };
-  static const J2ObjcClassInfo _UIViewController = { "UIViewControllerStub2", "org.chamomile.ios.uikit", ptrTable, methods, NULL, 7, 0x1, 10, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _UIViewController = { "UIViewControllerStub", "org.chamomile.ios.uikit", ptrTable, methods, NULL, 7, 0x1, 10, 0, -1, -1, -1, -1, -1 };
   return &_UIViewController;
 }
 
