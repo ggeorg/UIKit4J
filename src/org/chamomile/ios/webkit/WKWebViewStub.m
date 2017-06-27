@@ -94,7 +94,13 @@ J2OBJC_IGNORE_DESIGNATED_END
 
 void WKWebView_init(WKWebView *self) {
   //UIView_init(self);
-  [self initWithFrame:CGRectMake(0, 0, 0, 0)];
+  //[self initWithFrame:CGRectMake(0, 0, 0, 0)];
+  static IMP initImp;
+  dispatch_once_t token;
+  dispatch_once(token, ^{
+    initImp = [WKWebView instanceMethodForSelector:@selector(init)];
+  });
+  ((id (*)(id, SEL))initImp)(self, @selector(init));
 }
 
 WKWebView *new_WKWebView_init() {

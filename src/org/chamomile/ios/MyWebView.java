@@ -9,7 +9,7 @@ public class MyWebView extends WKWebViewStub implements WKWebView {
 		super();
 	}
 
-//	public MyWebView(WKWebViewConfiguration configuration) {
-//		super(configuration);
-//	}
+	public MyWebView(WKWebViewConfiguration configuration) {
+		super(configuration);
+	}
 }
