@@ -1,3 +1,7 @@
+#include "org/chamomile/ios/core/graphics/CGPoint.h"
+#include "org/chamomile/ios/core/graphics/CGRect.h"
+#include "org/chamomile/ios/core/graphics/CGSize.h"
+
 #include "org/chamomile/ios/uikit/UIActivityIndicatorViewStub.h"
 #include "org/chamomile/ios/uikit/UIButtonStub.h"
 #include "org/chamomile/ios/uikit/UIColorStub.h"

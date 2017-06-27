@@ -3,7 +3,6 @@ package org.chamomile.ios.uikit;
 import org.chamomile.ios.core.graphics.CGAffineTransform;
 import org.chamomile.ios.core.graphics.CGPoint;
 import org.chamomile.ios.core.graphics.CGRect;
-import org.chamomile.ios.core.graphics.CGSize;
 import org.chamomile.ios.foundation.NSArray;
 
 import com.google.j2objc.annotations.ObjectiveCName;
@@ -20,9 +19,9 @@ import com.google.j2objc.annotations.ObjectiveCName;
  */
 public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMode {
 	final class UIViewFactory {
-		static native UIView viewWithRect(double x, double y, double width, double height) /*-[
+		static native UIView createWithFrame(double x, double y, double width, double height) /*-[
 		//@formatter:off
-			return [(UIView *)[OrgChamomileIosUikitUIView alloc] initWithFrame:CGRectMake(x, y, width, height)];
+			return [[UIView alloc] initWithFrame:CGRectMake(x, y, width, height)];
 		//@formatter:on
 		]-*/;
 
@@ -99,11 +98,13 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 	// Initializing a View Object
 	// ---------------------------------------------------------------------
 
-	static UIView viewWithRect(CGRect frame) {
-		final CGPoint o = frame.origin;
-		final CGSize sz = frame.size;
-		return UIViewFactory.viewWithRect(o.x, o.y, sz.width, sz.height);
-	};
+	static UIView createWithFrame(CGRect frame) {
+		return UIViewFactory.createWithFrame(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+	}
+
+	static UIView createWithFrame(double x, double y, double width, double height) {
+		return UIViewFactory.createWithFrame(x, y, width, height);
+	}
 
 	// ---------------------------------------------------------------------
 	// Configuring a View’s Visual Appearance
@@ -202,6 +203,10 @@ public interface UIView extends UIResponder, UIViewAutoresizing, UIViewContentMo
 	default void setFrame(CGRect frame) {
 		UIViewFactory.setFrame(this, frame.origin.x, frame.origin.y,
 				frame.size.width, frame.size.height);
+	}
+	
+	default void setFrame(double x, double y, double width, double height) {
+		UIViewFactory.setFrame(this, x, y, width, height);
 	}
 
 	@ObjectiveCName("java_getBounds")

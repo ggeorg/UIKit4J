@@ -1,11 +1,24 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.foundation.NSArray;
 
 import com.google.j2objc.annotations.ObjectiveCName;
 
 @ObjectiveCName("UIView")
 public class UIViewStub implements UIView {
+	
+	public UIViewStub() {
+		super();
+	}
+	
+	public UIViewStub(CGRect frame) {
+		this(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+	}
+	
+	public UIViewStub(double x, double y, double width, double height) {
+		setFrame(x, y, width, height);
+	}
 
 	@Override
 	public UIColor getBackgroundColor() {
