@@ -12,11 +12,13 @@
 
 @end
 
-__attribute__((always_inline)) inline void UIViewController_init(NSObject *self) {
-    #pragma unused(self)
-}
-
 J2OBJC_EMPTY_STATIC_INIT(UIViewController)
+
+FOUNDATION_EXPORT void UIViewController_init(UIViewController *self);
+
+FOUNDATION_EXPORT UIViewController *new_UIViewController_init() NS_RETURNS_RETAINED;
+
+FOUNDATION_EXPORT UIViewController *create_UIViewController_init();
 
 J2OBJC_TYPE_LITERAL_HEADER(UIViewController)
 
