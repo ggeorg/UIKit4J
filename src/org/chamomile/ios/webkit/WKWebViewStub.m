@@ -98,7 +98,7 @@ void WKWebView_init(WKWebView *self) {
   //UIView_init(self);
   //[self initWithFrame:CGRectMake(0, 0, 0, 0)];
   static IMP initImp;
-  dispatch_once_t token;
+  static dispatch_once_t token;
   dispatch_once(token, ^{
     initImp = [WKWebView instanceMethodForSelector:@selector(init)];
   });
