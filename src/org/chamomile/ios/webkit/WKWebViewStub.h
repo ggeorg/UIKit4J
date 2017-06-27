@@ -9,13 +9,31 @@
 #include "WKWebView.h"
 
 @interface WKWebView (JavaWKWebView) <OrgChamomileIosWebkitWKWebView>
-@end
 
+- (instancetype)init;
+
+- (instancetype)initWithOrgChamomileIosWebkitWKWebViewConfiguration:(id<OrgChamomileIosWebkitWKWebViewConfiguration>)configuration;
+
+@end
+/*
 __attribute__((always_inline)) inline void WKWebView_init(NSObject *self) {
-    #pragma unused(self)
+    [self initWithFrame:CGRectMake(0, 0, 0, 0)];
 }
+*/
 
 J2OBJC_EMPTY_STATIC_INIT(WKWebView)
+
+FOUNDATION_EXPORT void WKWebView_init(WKWebView *self);
+
+FOUNDATION_EXPORT WKWebView *new_WKWebView_init() NS_RETURNS_RETAINED;
+
+FOUNDATION_EXPORT WKWebView *create_WKWebView_init();
+
+FOUNDATION_EXPORT void WKWebView_initWithOrgChamomileIosWebkitWKWebViewConfiguration_(WKWebView *self, id<OrgChamomileIosWebkitWKWebViewConfiguration> configuration);
+
+FOUNDATION_EXPORT WKWebView *new_WKWebView_initWithOrgChamomileIosWebkitWKWebViewConfiguration_(id<OrgChamomileIosWebkitWKWebViewConfiguration> configuration) NS_RETURNS_RETAINED;
+
+FOUNDATION_EXPORT WKWebView *create_WKWebView_initWithOrgChamomileIosWebkitWKWebViewConfiguration_(id<OrgChamomileIosWebkitWKWebViewConfiguration> configuration);
 
 J2OBJC_TYPE_LITERAL_HEADER(WKWebView)
 

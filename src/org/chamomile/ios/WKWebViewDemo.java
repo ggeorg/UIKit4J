@@ -18,6 +18,7 @@ import org.chamomile.ios.webkit.WKNavigation;
 import org.chamomile.ios.webkit.WKNavigationAction;
 import org.chamomile.ios.webkit.WKNavigationDelegate;
 import org.chamomile.ios.webkit.WKWebView;
+import org.chamomile.ios.webkit.WKWebViewStub;
 
 public final class WKWebViewDemo extends UIViewControllerStub
 		implements UIViewController, WKNavigationDelegate {
@@ -26,7 +27,8 @@ public final class WKWebViewDemo extends UIViewControllerStub
 	public void viewDidLoad() {
 		super.viewDidLoad();
 
-		WKWebView webView = WKWebView.webView();
+		WKWebView webView = new WKWebViewStub();
+		
 		getView().addSubview(webView);
 		webView.setFrame(getView().getFrame());
 		webView.setNavigationDelegate(this);

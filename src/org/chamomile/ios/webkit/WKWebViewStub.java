@@ -9,6 +9,8 @@ import com.google.j2objc.annotations.ObjectiveCName;
 
 @ObjectiveCName("WKWebView")
 public class WKWebViewStub extends UIViewStub implements WKWebView {
+	public WKWebViewStub() {}
+	public WKWebViewStub(WKWebViewConfiguration configuration) {}
 
 	@Override
 	public UIScrollView getScrollView() {
