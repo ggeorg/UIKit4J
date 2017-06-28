@@ -6,5 +6,5 @@ package org.chamomile.ios.uikit;
  * @author ggeorg
  */
 public interface UISplitViewController extends UIViewController {
-
+	final class UISplitViewControllerFactory {}
 }

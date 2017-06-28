@@ -17,6 +17,7 @@
 #include "org/chamomile/ios/uikit/UIPickerViewStub.h"
 #include "org/chamomile/ios/uikit/UIProgressViewStub.h"
 #include "org/chamomile/ios/uikit/UISliderStub.h"
+#include "org/chamomile/ios/uikit/UISplitViewControllerStub.h"
 #include "org/chamomile/ios/uikit/UIStackViewStub.h"
 #include "org/chamomile/ios/uikit/UIStepperStub.h"
 #include "org/chamomile/ios/uikit/UISwitchStub.h"

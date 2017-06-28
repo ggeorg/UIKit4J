@@ -35,6 +35,8 @@
   return &_UIViewController;
 }
 
+#include "UIViewControllerStubImpl.h"
+
 @end
 
 void UIViewController_init(UIViewController *self) {

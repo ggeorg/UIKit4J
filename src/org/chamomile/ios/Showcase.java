@@ -8,13 +8,14 @@ import org.chamomile.ios.foundation.NSDictionary;
 import org.chamomile.ios.uikit.UIApplication;
 import org.chamomile.ios.uikit.UIApplicationDelegate;
 import org.chamomile.ios.uikit.UIResponderStub;
+import org.chamomile.ios.uikit.UISplitViewControllerStub;
 import org.chamomile.ios.uikit.UIWindow;
 
 public final class Showcase extends UIResponderStub implements UIApplicationDelegate {
 	private UIWindow window;
 
-	@Override
-	public boolean didFinishLaunching(UIApplication application, NSDictionary launchOptions) {
+	//@Override
+	public boolean didFinishLaunching_01(UIApplication application, NSDictionary launchOptions) {
 		window = createWithFrame(getMainScreen().getBounds());
 		window.setRootViewController(new WKWebViewDemo());
 		window.setBackgroundColor(whiteColor());
@@ -22,4 +23,12 @@ public final class Showcase extends UIResponderStub implements UIApplicationDele
 		return true;
 	}
 
+	@Override
+	public boolean didFinishLaunching(UIApplication application, NSDictionary launchOptions) {
+		window = createWithFrame(getMainScreen().getBounds());
+		window.setRootViewController(new UISplitViewControllerStub());
+		window.setBackgroundColor(whiteColor());
+		window.makeKeyAndVisible();
+		return true;
+	}
 }
